@@ -1,0 +1,780 @@
+FILE_TYPE = EXPANDEDPARTLIST;
+{ Using PSTWRITER 16.6.0 d001Jan-03-2018 at 20:39:05 }
+DIRECTIVES
+ PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
+ ROOT_DRAWING='MOTOR_TI_FOC';
+ POST_TIME='Mar 11 2013 16:26:28';
+ SOURCE_TOOL='CAPTURE_WRITER';
+END_DIRECTIVES;
+
+PART_NAME
+ C1 'CAP NP_SMD_C_0805_2.2NF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3762298@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3762298@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3762298@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C10 'CAP NP_SMD_C_0805_1UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS4910@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins4910@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins4910@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C11 'CAP NP_SMD_C_0805_1UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3744934@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3744934@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3744934@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C12 'CAP NP_SMD_C_0805_1UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3746022@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3746022@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3746022@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C13 'CAP NP_SMD_C_0805_47NF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS4753@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins4753@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins4753@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C14 'CAP NP_SMD_C_0805_47NF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS4705@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins4705@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins4705@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C15 'CAP NP_SMD_C_0805_2.2UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3889@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3889@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3889@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C16 'CAP NP_SMD_C_0805_OPEN':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3773775@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3773775@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3773775@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C17 'CAP NP_SMD_C_0805_1UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3785@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3785@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3785@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C18 'CAP NP_SMD_C_0805_1UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3754330@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3754330@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3754330@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C19 'CAP NP_SMD_C_0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3745383@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3745383@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3745383@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C2 'CAP NP_SMD_C_0805_2.2NF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3762314@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3762314@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3762314@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C20 'CAP NP_SMD_C_0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3746186@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3746186@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3746186@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C21 'CAP NP_SMD_C_0805_1NF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS2510@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins2510@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins2510@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C22 'CAP NP_SMD_C_0805_1UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS2185@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins2185@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins2185@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C23 'CAP NP_SMD_C_0805_1NF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS2784@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins2784@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins2784@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C24 'CAP NP_SMD_C_0805_1NF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS2892@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins2892@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins2892@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C25 'CAP NP_SMD_C_0805_1UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3746744@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3746744@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3746744@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C26 'CAP NP_SMD_C_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3753272@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3753272@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3753272@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C27 'CAP NP_SMD_C_0805_10UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3757828@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3757828@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3757828@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C28 'CAP NP_SMD_C_0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3774101@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3774101@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3774101@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C29 'CAP NP_SMD_C_0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3749255@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3749255@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3749255@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C3 'CAP NP_SMD_C_0805_2.2NF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3762330@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3762330@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3762330@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C30 'CAP NP_SMD_C_0805_0.1UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3746904@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3746904@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3746904@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C4 'CAP NP_SMD_C_0805_2.2UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3757802@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3757802@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3757802@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C5 'CAP NP_SMD_C_0805_2.2UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3759727@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3759727@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3759727@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C6 'CAP NP_SMD_C_0805_2.2UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3757960@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3757960@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3757960@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C7 'CAP NP_SMD_C_0805_2.2UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3759592@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3759592@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3759592@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C8 'CAP NP_SMD_C_0805_2.2UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3759933@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3759933@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3759933@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ C9 'CAP NP_SMD_C_1206_4.7UF':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS4638@DISCRETE.CAP NP.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins4638@discrete.\cap np.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins4638@discrete.\cap np.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D1 'LED_SMD_D_0805_RED':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3776887@DISCRETE.LED.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3776887@discrete.\led.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3776887@discrete.\led.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ D2 'NUP4201MR6T1G_TSOP6_NUP4201MR6':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS295@CORE.NUP4201MR6T1G.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins295@core.\nup4201mr6t1g.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins295@core.\nup4201mr6t1g.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J1 'C1X6GEN_CONNECTER1X6_JTAG':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3759247@CORE.C1X6GEN.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3759247@core.\c1x6gen.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3759247@core.\c1x6gen.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J2 'BANANA_BANANA_MOTOR_A':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS326@CORE.BANANA.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins326@core.\banana.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins326@core.\banana.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J3 'C1X2_C1X2NEW_C1X2':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3752473@CORE.C1X2.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3752473@core.\c1x2.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3752473@core.\c1x2.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J4 'BANANA_BANANA_MOTOR_B':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS340@CORE.BANANA.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins340@core.\banana.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins340@core.\banana.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J5 'BANANA_BANANA_MOTOR_C':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS354@CORE.BANANA.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins354@core.\banana.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins354@core.\banana.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J6 'BANANA_BANANA_POWER_P':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS368@CORE.BANANA.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins368@core.\banana.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins368@core.\banana.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ J7 'BANANA_BANANA_POWER_GND':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS382@CORE.BANANA.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins382@core.\banana.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins382@core.\banana.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L1 'INDUCTOR_SMD_L_0805_BEAD':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3757985@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3757985@discrete.\inductor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3757985@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ L2 'INDUCTOR_SMD_L_0805_BEAD':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3759608@DISCRETE.INDUCTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3759608@discrete.\inductor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3759608@discrete.\inductor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ MCU1 'TMS320F28027PT_LQFP48_MCU_TMS32':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS1403@CORE.TMS320F28027PT.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins1403@core.\tms320f28027pt.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins1403@core.\tms320f28027pt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ MOSFET1 'N_MOSFET_TO252-263_TO252AA_ZK_I':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3744866@CORE.N_MOSFET_TO252-263.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3744866@core.\n_mosfet_to252-263.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3744866@core.\n_mosfet_to252-263.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ MOSFET2 'N_MOSFET_TO252-263_TO252AA_ZK_I':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3745126@CORE.N_MOSFET_TO252-263.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3745126@core.\n_mosfet_to252-263.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3745126@core.\n_mosfet_to252-263.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ MOSFET3 'N_MOSFET_TO252-263_TO252AA_ZK_I':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3745988@CORE.N_MOSFET_TO252-263.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3745988@core.\n_mosfet_to252-263.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3745988@core.\n_mosfet_to252-263.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ MOSFET4 'N_MOSFET_TO252-263_TO252AA_ZK_I':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3746054@CORE.N_MOSFET_TO252-263.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3746054@core.\n_mosfet_to252-263.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3746054@core.\n_mosfet_to252-263.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ MOSFET5 'N_MOSFET_TO252-263_TO252AA_ZK_I':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3746710@CORE.N_MOSFET_TO252-263.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3746710@core.\n_mosfet_to252-263.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3746710@core.\n_mosfet_to252-263.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ MOSFET6 'N_MOSFET_TO252-263_TO252AA_ZK_I':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3746772@CORE.N_MOSFET_TO252-263.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3746772@core.\n_mosfet_to252-263.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3746772@core.\n_mosfet_to252-263.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R1 'RESISTOR_SMD_R_0805_820R':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3758644@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3758644@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3758644@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R10 'RESISTOR_SMD_R_0805_330R':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS1784@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins1784@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins1784@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R11 'RESISTOR_SMD_R_0805_62K':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3745288@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3745288@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3745288@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R12 'RESISTOR_SMD_R_0805_62K':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3746114@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3746114@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3746114@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R13 'RESISTOR_SMD_R_0805_5K':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3745314@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3745314@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3745314@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R14 'RESISTOR_SMD_R_0805_5K':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3746130@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3746130@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3746130@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R15 'RESISTOR_SMD_R_2512_0.007R':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3745158@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3745158@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3745158@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R16 'RESISTOR_SMD_R_2512_0.007R':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3746076@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3746076@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3746076@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R17 'RESISTOR_SMD_R_0805_56R':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS2235@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins2235@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins2235@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R18 'RESISTOR_SMD_R_0805_56R':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS2283@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins2283@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins2283@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R19 'RESISTOR_SMD_R_0805_56R':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS2309@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins2309@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins2309@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R2 'RESISTOR_SMD_R_0805_2.2K':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3762176@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3762176@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3762176@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R20 'RESISTOR_SMD_R_0805_62K':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3746828@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3746828@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3746828@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R21 'RESISTOR_SMD_R_0805_62K':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3749140@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3749140@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3749140@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R22 'RESISTOR_SMD_R_0805_5K':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3746844@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3746844@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3746844@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R23 'RESISTOR_SMD_R_2512_0.007R':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3746796@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3746796@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3746796@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R24 'RESISTOR_SMD_R_0805_5K':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3749156@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3749156@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3749156@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R3 'RESISTOR_SMD_R_0805_2.2K':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3758377@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3758377@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3758377@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R4 'RESISTOR_SMD_R_0805_820R':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3758524@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3758524@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3758524@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R5 'RESISTOR_SMD_R_0805_2.2K':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3759008@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3759008@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3759008@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R6 'RESISTOR_SMD_R_0805_2.2K':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3758403@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3758403@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3758403@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R7 'RESISTOR_SMD_R_0805_100R':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS4822@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins4822@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins4822@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R8 'RESISTOR_SMD_R_0805_0R':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3773367@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3773367@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3773367@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ R9 'RESISTOR_SMD_R_0805_10K':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS1863@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins1863@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins1863@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ T1 'TESTPAD_SMALL_SMD_TESTPAD_SMD_D':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3770838@CORE.TESTPAD_SMALL_SMD.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3770838@core.\testpad_small_smd.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3770838@core.\testpad_small_smd.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ T2 'TESTPAD_SMALL_SMD_TESTPAD_SMD_1':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3770860@CORE.TESTPAD_SMALL_SMD.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3770860@core.\testpad_small_smd.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3770860@core.\testpad_small_smd.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP1 'TESTPAD_TESTPAD_CIR_10_CAP_P':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS522@CORE.TESTPAD.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins522@core.\testpad.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins522@core.\testpad.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ TP2 'TESTPAD_TESTPAD_CIR_10_CAP_N':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS536@CORE.TESTPAD.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins536@core.\testpad.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins536@core.\testpad.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
+ U1 'DRV8305_0_HTQFP48_DRV8305N':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS146@MOTOR_TI_FOC.DRV8305_0.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins146@motor_ti_foc.\drv8305_0.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins146@motor_ti_foc.\drv8305_0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+END.
