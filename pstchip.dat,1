@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Jan-04-2018 at 21:24:55}
+{ Using PSTWRITER 16.6.0 d001Jan-03-2018 at 20:39:05}
 primitive 'CAP NP_SMD_C_0805_2.2NF';
   pin
     '1':
@@ -150,19 +150,31 @@ primitive 'LED_SMD_D_0805_RED';
     VALUE='RED';
   end_body;
 end_primitive;
-primitive 'DIODE TVS_SOD323_3.3V';
+primitive 'NUP4201MR6T1G_TSOP6_NUP4201MR6';
   pin
-    'ANODE':
+    'IO1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'VN':
       PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
-    'CATHODE':
-      PIN_NUMBER='(1)';
+    'IO2':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    'IO3':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
+    'VP':
+      PIN_NUMBER='(5)';
+      PINUSE='UNSPEC';
+    'IO4':
+      PIN_NUMBER='(6)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='DIODE TVS';
-    JEDEC_TYPE='SOD323';
-    VALUE='3.3V';
+    PART_NAME='NUP4201MR6T1G';
+    JEDEC_TYPE='TSOP6';
+    VALUE='NUP4201MR6';
   end_body;
 end_primitive;
 primitive 'C1X6GEN_CONNECTER1X6_JTAG';
