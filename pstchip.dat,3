@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Jan-06-2018 at 17:07:30}
+{ Using PSTWRITER 16.6.0 d001Jan-06-2018 at 14:41:03}
 primitive 'CAP NP_SMD_C_0805_2.2NF';
   pin
     '1':
@@ -189,7 +189,7 @@ primitive 'BANANA_BANANA_MOTOR_A';
     VALUE='motor_A';
   end_body;
 end_primitive;
-primitive 'C1X4GEN_CONN1X4_CONN1X4';
+primitive 'C1X2_C1X2NEW_C1X2';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -197,17 +197,11 @@ primitive 'C1X4GEN_CONN1X4_CONN1X4';
     '2':
       PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
-    '3':
-      PIN_NUMBER='(3)';
-      PINUSE='UNSPEC';
-    '4':
-      PIN_NUMBER='(4)';
-      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='C1X4Gen';
-    JEDEC_TYPE='Conn1X4';
-    VALUE='Conn1X4';
+    PART_NAME='C1X2';
+    JEDEC_TYPE='C1X2new';
+    VALUE='C1X2';
   end_body;
 end_primitive;
 primitive 'BANANA_BANANA_MOTOR_B';
