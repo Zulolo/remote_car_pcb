@@ -1,0 +1,18 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : ti_foc_motor.brd                              )
+(    Software Version : 16.6S008                                      )
+(    Date/Time        : Sun Jan 07 23:15:48 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 1
+
+
+  <<<  ETCH  >>>
+
+    Layer = BOTTOM
+	Point on shape: (38.5502 46.6252)  Net: GND
