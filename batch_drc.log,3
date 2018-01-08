@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : ti_foc_motor.brd                              )
 (    Software Version : 16.6S008                                      )
-(    Date/Time        : Sun Jan 07 23:17:54 2018                      )
+(    Date/Time        : Mon Jan 08 21:04:22 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  2
+ ..... Total number of DRC errors  0
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
