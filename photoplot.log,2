@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : ti_foc_motor.brd                              )
 (    Software Version : 16.6S008                                      )
-(    Date/Time        : Mon Jan 08 21:42:15 2018                      )
+(    Date/Time        : Mon Jan 08 21:49:28 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -220,7 +220,7 @@ Results from parameter file ...
     WARNING: 0 width line found at (1.0000 0.0000)
            ... using undefined line width of 0.2000
 
-    WARNING: text composed 0 width line found at (4.6000 60.6000)
+    WARNING: text composed 0 width line found at (2.5000 71.8000)
            ... using undefined line width of 0.2000
 
     WARNING: text having Multiple 0 width lines; all will be treated the same as the first.

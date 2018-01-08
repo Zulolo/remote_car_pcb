@@ -4,10 +4,15 @@
 (                                                                     )
 (    Drawing          : ti_foc_motor.brd                              )
 (    Software Version : 16.6S008                                      )
-(    Date/Time        : Mon Jan 08 21:47:22 2018                      )
+(    Date/Time        : Mon Jan 08 21:57:34 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
+
+
+ ******************************************
+ WARNING: DRC OUT OF DATE on this layout.
+ ******************************************
 
  ---- Photoplot outline rectangle not found ... using drawing extents
 
@@ -75,7 +80,7 @@ Results from parameter file ...
   RECTANGLE  1.80000     x 0.90000      90.000 NO     DARK 
   RECTANGLE  7.00000     x 7.00000       0.000 NO     DARK 
 
-     TOP created.
+     TOP created with warnings
 
 
 ================================================================
@@ -111,7 +116,7 @@ Results from parameter file ...
   SQUARE     1.60000                     0.000 NO     DARK 
   SQUARE     1.80000                     0.000 NO     DARK 
 
-     POWER created.
+     POWER created with warnings
 
 
 ================================================================
@@ -148,7 +153,7 @@ Results from parameter file ...
   SQUARE     1.60000                     0.000 NO     DARK 
   SQUARE     1.80000                     0.000 NO     DARK 
 
-     GND created.
+     GND created with warnings
 
 
 ================================================================
@@ -198,7 +203,7 @@ Results from parameter file ...
   RECTANGLE  3.60000     x 1.60000       0.000 NO     DARK 
   RECTANGLE  7.00000     x 7.00000       0.000 NO     DARK 
 
-     BOTTOM created.
+     BOTTOM created with warnings
 
 
 ================================================================
@@ -220,7 +225,7 @@ Results from parameter file ...
     WARNING: 0 width line found at (1.0000 0.0000)
            ... using undefined line width of 0.2000
 
-    WARNING: text composed 0 width line found at (4.7000 60.8000)
+    WARNING: text composed 0 width line found at (2.5000 71.8000)
            ... using undefined line width of 0.2000
 
     WARNING: text having Multiple 0 width lines; all will be treated the same as the first.
@@ -308,7 +313,7 @@ Results from parameter file ...
   RECTANGLE  2.00000     x 1.10000      90.000 NO     DARK 
   RECTANGLE  7.20000     x 7.20000       0.000 NO     DARK 
 
-     SOLDERMASK_TOP created.
+     SOLDERMASK_TOP created with warnings
 
 
 ================================================================
@@ -348,7 +353,7 @@ Results from parameter file ...
   RECTANGLE  3.80000     x 1.80000       0.000 NO     DARK 
   RECTANGLE  7.20000     x 7.20000       0.000 NO     DARK 
 
-     SOLDERMASK_BOTTOM created.
+     SOLDERMASK_BOTTOM created with warnings
 
 
 ================================================================
@@ -375,7 +380,7 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.20000                                  DARK 
 
-     DRILL created.
+     DRILL created with warnings
 
 
 ================================================================
@@ -402,20 +407,20 @@ Results from parameter file ...
   ---------------------------------------------------------
   CIRCLE     0.20000                                  DARK 
 
-     OUTLINE created.
+     OUTLINE created with warnings
 
 
 ------------------------------------------------------
  SUMMARY:
-        TOP created.
-        POWER created.
-        GND created.
-        BOTTOM created.
+        TOP created with warnings
+        POWER created with warnings
+        GND created with warnings
+        BOTTOM created with warnings
         SILKSCREEN_TOP created with warnings
         SILKSCREEN_BOTTOM created with warnings
-        SOLDERMASK_TOP created.
-        SOLDERMASK_BOTTOM created.
-        DRILL created.
-        OUTLINE created.
+        SOLDERMASK_TOP created with warnings
+        SOLDERMASK_BOTTOM created with warnings
+        DRILL created with warnings
+        OUTLINE created with warnings
 
- ARTWORK finished
+ ARTWORK had warnings

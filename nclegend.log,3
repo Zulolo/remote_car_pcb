@@ -1,15 +1,17 @@
 (---------------------------------------------------------------------)
 (                                                                     )
-(    DBDOCTOR                                                         )
+(    DRILL LEGEND                                                     )
 (                                                                     )
 (    Drawing          : ti_foc_motor.brd                              )
 (    Software Version : 16.6S008                                      )
-(    Date/Time        : Mon Jan 08 21:57:34 2018                      )
+(    Date/Time        : Mon Jan 08 21:41:56 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
+Begin processing of drill legend template file 'D:/Cadence/SPB_16.6/share/pcb/text/nclegend/default-mm.dlt' ...
+End of drill legend template file processing.
 
-WARNING   WARNING(SPMHDB-42): Run batch DRC to correctly regenerate DRC errs.
-
-1 warnings, 0 errors detected, 0 errors could be fixed.
+Begin processing drill holes.
+No errors detected in processing holes.
+End processing drill holes.
