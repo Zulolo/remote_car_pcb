@@ -1,0 +1,23 @@
+{ Using PSTWRITER 17.2.0 d001Feb-10-2018 at 21:23:07 }
+
+#1 WARNING(ORCAP-36038): "No_connect" property on Pin "MCU1.36" ignored for MCU1: SCHEMATIC1, controller (2.80, 2.40). Connecting pin to net "MCU_IIC_SCK".
+#2 WARNING(ORCAP-36038): "No_connect" property on Pin "MCU1.31" ignored for MCU1: SCHEMATIC1, controller (2.80, 2.40). Connecting pin to net "MCU_IIC_SDA".
+#3 WARNING(ORCAP-36038): "No_connect" property on Pin "MCU1.10" ignored for MCU1: SCHEMATIC1, controller (2.80, 2.40). Connecting pin to net "MCU_VSEN_PVDD".
+#4 WARNING(ORCAP-36006): Part Name "DIODE SCHOTTKY_DO-214AA_CDBB2100-G/100V" is renamed to "DIODE SCHOTTKY_DO-214AA_CDBB210".
+#5 WARNING(ORCAP-36006): Part Name "INDUCTOR IRON_SMDR74_DR74-330-R/33UH" is renamed to "INDUCTOR IRON_SMDR74_DR74-330-R".
+#6 WARNING(ORCAP-36006): Part Name "TMS320F28027PT_LQFP48_MCU_TMS320F28027" is renamed to "TMS320F28027PT_LQFP48_MCU_TMS32".
+#7 WARNING(ORCAP-36042): Pin "VDD" is renamed to "VDD#32" as visible power pin of same name already exists in Package TMS320F28027PT , MCU1: SCHEMATIC1, controller (2.80, 2.40).
+#8 WARNING(ORCAP-36042): Pin "VSS" is renamed to "VSS#33" as visible power pin of same name already exists in Package TMS320F28027PT , MCU1: SCHEMATIC1, controller (2.80, 2.40).
+#9 WARNING(ORCAP-36042): Pin "VDD" is renamed to "VDD#43" as visible power pin of same name already exists in Package TMS320F28027PT , MCU1: SCHEMATIC1, controller (2.80, 2.40).
+#10 WARNING(ORCAP-36042): Pin "VSS" is renamed to "VSS#44" as visible power pin of same name already exists in Package TMS320F28027PT , MCU1: SCHEMATIC1, controller (2.80, 2.40).
+#11 WARNING(ORCAP-36006): Part Name "N_MOSFET_TO252-263_TO252AA_ZK_IRLR7843-TO252AA" is renamed to "N_MOSFET_TO252-263_TO252AA_ZK_I".
+INFO(ORCAP-36080): Scanning netlist files ...
+
+Loading... G:\GEEK\PROJECTS\REMOTE_CAR\PCB_DRV8301/pstchip.dat
+
+Loading... G:\GEEK\PROJECTS\REMOTE_CAR\PCB_DRV8301/pstchip.dat
+
+Loading... G:\GEEK\PROJECTS\REMOTE_CAR\PCB_DRV8301/pstxprt.dat
+
+Loading... G:\GEEK\PROJECTS\REMOTE_CAR\PCB_DRV8301/pstxnet.dat
+packaging the design view...
