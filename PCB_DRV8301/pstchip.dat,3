@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Jan-04-2018 at 21:24:55}
+{ Using PSTWRITER 17.2.0 d001Feb-11-2018 at 21:30:48}
 primitive 'CAP NP_SMD_C_0805_2.2NF';
   pin
     '1':
@@ -13,36 +13,6 @@ primitive 'CAP NP_SMD_C_0805_2.2NF';
     PART_NAME='CAP NP';
     JEDEC_TYPE='SMD_C_0805';
     VALUE='2.2nF';
-  end_body;
-end_primitive;
-primitive 'CAP NP_SMD_C_0805_1UF';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAP NP';
-    JEDEC_TYPE='SMD_C_0805';
-    VALUE='1uF';
-  end_body;
-end_primitive;
-primitive 'CAP NP_SMD_C_0805_47NF';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAP NP';
-    JEDEC_TYPE='SMD_C_0805';
-    VALUE='47nF';
   end_body;
 end_primitive;
 primitive 'CAP NP_SMD_C_0805_2.2UF';
@@ -60,7 +30,7 @@ primitive 'CAP NP_SMD_C_0805_2.2UF';
     VALUE='2.2uF';
   end_body;
 end_primitive;
-primitive 'CAP NP_SMD_C_0805_OPEN';
+primitive 'CAP NP_SMD_C_0805_6.8NF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -72,7 +42,7 @@ primitive 'CAP NP_SMD_C_0805_OPEN';
   body
     PART_NAME='CAP NP';
     JEDEC_TYPE='SMD_C_0805';
-    VALUE='open';
+    VALUE='6.8nF';
   end_body;
 end_primitive;
 primitive 'CAP NP_SMD_C_0805_0.1UF';
@@ -90,6 +60,36 @@ primitive 'CAP NP_SMD_C_0805_0.1UF';
     VALUE='0.1uF';
   end_body;
 end_primitive;
+primitive 'CAP NP_SMD_C_0805_15NF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='SMD_C_0805';
+    VALUE='15nF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_SMD_C_0805_120PF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='SMD_C_0805';
+    VALUE='120pF';
+  end_body;
+end_primitive;
 primitive 'CAP NP_SMD_C_0805_1NF';
   pin
     '1':
@@ -105,22 +105,7 @@ primitive 'CAP NP_SMD_C_0805_1NF';
     VALUE='1nF';
   end_body;
 end_primitive;
-primitive 'CAP NP_SMD_C_0805_10UF';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='CAP NP';
-    JEDEC_TYPE='SMD_C_0805';
-    VALUE='10uF';
-  end_body;
-end_primitive;
-primitive 'CAP NP_SMD_C_1206_4.7UF';
+primitive 'CAP NP_SMD_C_1206_2.2UF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -132,7 +117,52 @@ primitive 'CAP NP_SMD_C_1206_4.7UF';
   body
     PART_NAME='CAP NP';
     JEDEC_TYPE='SMD_C_1206';
-    VALUE='4.7uF';
+    VALUE='2.2uF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_SMD_C_0805_22NF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='SMD_C_0805';
+    VALUE='22nF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_SMD_C_0805_1UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='SMD_C_0805';
+    VALUE='1uF';
+  end_body;
+end_primitive;
+primitive 'CAP NP_SMD_C_1206_47UF';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='CAP NP';
+    JEDEC_TYPE='SMD_C_1206';
+    VALUE='47uF';
   end_body;
 end_primitive;
 primitive 'LED_SMD_D_0805_RED';
@@ -150,6 +180,21 @@ primitive 'LED_SMD_D_0805_RED';
     VALUE='RED';
   end_body;
 end_primitive;
+primitive 'DIODE SCHOTTKY_DO-214AA_CDBB210';
+  pin
+    'ANODE':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    'CATHODE':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='DIODE SCHOTTKY';
+    JEDEC_TYPE='DO-214AA';
+    VALUE='CDBB2100-G/100V';
+  end_body;
+end_primitive;
 primitive 'DIODE TVS_SOD323_3.3V';
   pin
     'ANODE':
@@ -165,7 +210,7 @@ primitive 'DIODE TVS_SOD323_3.3V';
     VALUE='3.3V';
   end_body;
 end_primitive;
-primitive 'C1X6GEN_CONNECTER1X6_JTAG';
+primitive 'C1X7_C1X7P127_JTAG';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -185,14 +230,17 @@ primitive 'C1X6GEN_CONNECTER1X6_JTAG';
     '6':
       PIN_NUMBER='(6)';
       PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='C1X6Gen';
-    JEDEC_TYPE='Connecter1X6';
+    PART_NAME='C1X7';
+    JEDEC_TYPE='c1X7p127';
     VALUE='JTAG';
   end_body;
 end_primitive;
-primitive 'BANANA_BANANA_MOTOR_A';
+primitive 'BANANA_BANANA_SMALL_MOTOR_A';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -200,11 +248,47 @@ primitive 'BANANA_BANANA_MOTOR_A';
   end_pin;
   body
     PART_NAME='Banana';
-    JEDEC_TYPE='Banana';
+    JEDEC_TYPE='Banana_small';
     VALUE='motor_A';
   end_body;
 end_primitive;
-primitive 'C1X2_C1X2NEW_C1X2';
+primitive 'BANANA_BANANA_SMALL_MOTOR_B';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Banana';
+    JEDEC_TYPE='Banana_small';
+    VALUE='motor_B';
+  end_body;
+end_primitive;
+primitive 'BANANA_BANANA_SMALL_MOTOR_C';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Banana';
+    JEDEC_TYPE='Banana_small';
+    VALUE='motor_C';
+  end_body;
+end_primitive;
+primitive 'BANANA_BANANA_SMALL_POWER_P';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='Banana';
+    JEDEC_TYPE='Banana_small';
+    VALUE='power_P';
+  end_body;
+end_primitive;
+primitive 'C1X4GEN_CONN1X4_CONN1X4';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -212,14 +296,20 @@ primitive 'C1X2_C1X2NEW_C1X2';
     '2':
       PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
+    '3':
+      PIN_NUMBER='(3)';
+      PINUSE='UNSPEC';
+    '4':
+      PIN_NUMBER='(4)';
+      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='C1X2';
-    JEDEC_TYPE='C1X2new';
-    VALUE='C1X2';
+    PART_NAME='C1X4Gen';
+    JEDEC_TYPE='Conn1X4';
+    VALUE='Conn1X4';
   end_body;
 end_primitive;
-primitive 'BANANA_BANANA_MOTOR_B';
+primitive 'BANANA_BANANA_SMALL_POWER_GND';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -227,43 +317,7 @@ primitive 'BANANA_BANANA_MOTOR_B';
   end_pin;
   body
     PART_NAME='Banana';
-    JEDEC_TYPE='Banana';
-    VALUE='motor_B';
-  end_body;
-end_primitive;
-primitive 'BANANA_BANANA_MOTOR_C';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='Banana';
-    JEDEC_TYPE='Banana';
-    VALUE='motor_C';
-  end_body;
-end_primitive;
-primitive 'BANANA_BANANA_POWER_P';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='Banana';
-    JEDEC_TYPE='Banana';
-    VALUE='power_P';
-  end_body;
-end_primitive;
-primitive 'BANANA_BANANA_POWER_GND';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='Banana';
-    JEDEC_TYPE='Banana';
+    JEDEC_TYPE='Banana_small';
     VALUE='power_GND';
   end_body;
 end_primitive;
@@ -280,6 +334,21 @@ primitive 'INDUCTOR_SMD_L_0805_BEAD';
     PART_NAME='INDUCTOR';
     JEDEC_TYPE='SMD_L_0805';
     VALUE='bead';
+  end_body;
+end_primitive;
+primitive 'INDUCTOR IRON_SMDR74_DR74-330-R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='INDUCTOR IRON';
+    JEDEC_TYPE='SMDR74';
+    VALUE='DR74-330-R/33uH';
   end_body;
 end_primitive;
 primitive 'TMS320F28027PT_LQFP48_MCU_TMS32';
@@ -435,7 +504,7 @@ primitive 'TMS320F28027PT_LQFP48_MCU_TMS32';
     VALUE='TMS320F28027';
   end_body;
 end_primitive;
-primitive 'N_MOSFET_TO252-263_TO252AA_ZK_I';
+primitive 'N_MOSFET_TO252-263_TO252AA_IRLR';
   pin
     'G':
       PIN_NUMBER='(1)';
@@ -449,11 +518,11 @@ primitive 'N_MOSFET_TO252-263_TO252AA_ZK_I';
   end_pin;
   body
     PART_NAME='N_MOSFET_TO252-263';
-    JEDEC_TYPE='TO252AA_ZK';
+    JEDEC_TYPE='TO252AA';
     VALUE='IRLR7843-TO252AA';
   end_body;
 end_primitive;
-primitive 'RESISTOR_SMD_R_0805_820R';
+primitive 'RESISTOR_SMD_R_0805_1K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -465,10 +534,10 @@ primitive 'RESISTOR_SMD_R_0805_820R';
   body
     PART_NAME='RESISTOR';
     JEDEC_TYPE='SMD_R_0805';
-    VALUE='820R';
+    VALUE='1K';
   end_body;
 end_primitive;
-primitive 'RESISTOR_SMD_R_0805_330R';
+primitive 'RESISTOR_SMD_R_0805_16.2K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -480,7 +549,7 @@ primitive 'RESISTOR_SMD_R_0805_330R';
   body
     PART_NAME='RESISTOR';
     JEDEC_TYPE='SMD_R_0805';
-    VALUE='330R';
+    VALUE='16.2K';
   end_body;
 end_primitive;
 primitive 'RESISTOR_SMD_R_0805_62K';
@@ -498,6 +567,21 @@ primitive 'RESISTOR_SMD_R_0805_62K';
     VALUE='62K';
   end_body;
 end_primitive;
+primitive 'RESISTOR_SMD_R_0805_10K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='SMD_R_0805';
+    VALUE='10K';
+  end_body;
+end_primitive;
 primitive 'RESISTOR_SMD_R_0805_5K';
   pin
     '1':
@@ -511,6 +595,21 @@ primitive 'RESISTOR_SMD_R_0805_5K';
     PART_NAME='RESISTOR';
     JEDEC_TYPE='SMD_R_0805';
     VALUE='5K';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_SMD_R_0805_2.2K';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='SMD_R_0805';
+    VALUE='2.2K';
   end_body;
 end_primitive;
 primitive 'RESISTOR_SMD_R_2512_0.007R';
@@ -543,7 +642,7 @@ primitive 'RESISTOR_SMD_R_0805_56R';
     VALUE='56R';
   end_body;
 end_primitive;
-primitive 'RESISTOR_SMD_R_0805_2.2K';
+primitive 'RESISTOR_SMD_R_0805_205K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -555,10 +654,10 @@ primitive 'RESISTOR_SMD_R_0805_2.2K';
   body
     PART_NAME='RESISTOR';
     JEDEC_TYPE='SMD_R_0805';
-    VALUE='2.2K';
+    VALUE='205K';
   end_body;
 end_primitive;
-primitive 'RESISTOR_SMD_R_0805_100R';
+primitive 'RESISTOR_SMD_R_0805_31.6K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -570,61 +669,7 @@ primitive 'RESISTOR_SMD_R_0805_100R';
   body
     PART_NAME='RESISTOR';
     JEDEC_TYPE='SMD_R_0805';
-    VALUE='100R';
-  end_body;
-end_primitive;
-primitive 'RESISTOR_SMD_R_0805_0R';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RESISTOR';
-    JEDEC_TYPE='SMD_R_0805';
-    VALUE='0R';
-  end_body;
-end_primitive;
-primitive 'RESISTOR_SMD_R_0805_10K';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RESISTOR';
-    JEDEC_TYPE='SMD_R_0805';
-    VALUE='10K';
-  end_body;
-end_primitive;
-primitive 'TESTPAD_SMALL_SMD_TESTPAD_SMD_D';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='TestPad_Small_SMD';
-    JEDEC_TYPE='TestPad_SMD_D10';
-    VALUE='X2';
-  end_body;
-end_primitive;
-primitive 'TESTPAD_SMALL_SMD_TESTPAD_SMD_1';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='TestPad_Small_SMD';
-    JEDEC_TYPE='TestPad_SMD_D10';
-    VALUE='X1';
+    VALUE='31.6K';
   end_body;
 end_primitive;
 primitive 'TESTPAD_TESTPAD_CIR_10_CAP_P';
@@ -651,157 +696,181 @@ primitive 'TESTPAD_TESTPAD_CIR_10_CAP_N';
     VALUE='CAP_N';
   end_body;
 end_primitive;
-primitive 'DRV8305_0_HTQFP48_DRV8305N';
+primitive 'DRV8301_HTSSOP56_DRV8301';
   pin
-    'EN_GATE':
+    'RT_CLK':
       PIN_NUMBER='(1)';
       INPUT_LOAD='(*)';
-    'INHA':
+    'COMP':
       PIN_NUMBER='(2)';
-      INPUT_LOAD='(*)';
-    'INLA':
+      OUTPUT_LOAD='(*)';
+    'VSENSE':
       PIN_NUMBER='(3)';
       INPUT_LOAD='(*)';
-    'INHB':
+    'PWRGD':
       PIN_NUMBER='(4)';
-      INPUT_LOAD='(*)';
-    'INLB':
+      OUTPUT_LOAD='(*)';
+    'NOCTW':
       PIN_NUMBER='(5)';
-      INPUT_LOAD='(*)';
-    'INHC':
+      OUTPUT_LOAD='(*)';
+    'NFAULT':
       PIN_NUMBER='(6)';
-      INPUT_LOAD='(*)';
-    'INLC':
+      OUTPUT_LOAD='(*)';
+    'DTC':
       PIN_NUMBER='(7)';
       INPUT_LOAD='(*)';
-    'NFAULT':
-      PIN_NUMBER='(8)';
-      OUTPUT_LOAD='(*)';
     'NSCS':
-      PIN_NUMBER='(9)';
+      PIN_NUMBER='(8)';
       INPUT_LOAD='(*)';
     'SDI':
-      PIN_NUMBER='(10)';
+      PIN_NUMBER='(9)';
       INPUT_LOAD='(*)';
     'SDO':
-      PIN_NUMBER='(11)';
+      PIN_NUMBER='(10)';
       OUTPUT_LOAD='(*)';
     'SCLK':
+      PIN_NUMBER='(11)';
+      INPUT_LOAD='(*)';
+    'DC_CAL':
       PIN_NUMBER='(12)';
       INPUT_LOAD='(*)';
-    'PWRGD':
+    'GVDD':
       PIN_NUMBER='(13)';
-      OUTPUT_LOAD='(*)';
-    'GND#14':
+      PINUSE='POWER';
+    'CP1':
       PIN_NUMBER='(14)';
       PINUSE='POWER';
-    'AVDD':
+    'CP2':
       PIN_NUMBER='(15)';
       PINUSE='POWER';
-    'SO1':
+    'EN_GATE':
       PIN_NUMBER='(16)';
-      OUTPUT_LOAD='(*)';
-    'SO2':
+      INPUT_LOAD='(*)';
+    'INH_A':
       PIN_NUMBER='(17)';
-      OUTPUT_LOAD='(*)';
-    'SO3':
+      INPUT_LOAD='(*)';
+    'INL_A':
       PIN_NUMBER='(18)';
-      OUTPUT_LOAD='(*)';
-    'SN3':
+      INPUT_LOAD='(*)';
+    'INH_B':
       PIN_NUMBER='(19)';
       INPUT_LOAD='(*)';
-    'SP3':
+    'INL_B':
       PIN_NUMBER='(20)';
       INPUT_LOAD='(*)';
-    'SN2':
+    'INH_C':
       PIN_NUMBER='(21)';
       INPUT_LOAD='(*)';
-    'SP2':
+    'INL_C':
       PIN_NUMBER='(22)';
       INPUT_LOAD='(*)';
-    'SN1':
+    'DVDD':
       PIN_NUMBER='(23)';
-      INPUT_LOAD='(*)';
-    'SP1':
+      PINUSE='POWER';
+    'REF':
       PIN_NUMBER='(24)';
       INPUT_LOAD='(*)';
-    'GLC':
+    'SO1':
       PIN_NUMBER='(25)';
       OUTPUT_LOAD='(*)';
-    'SLC':
+    'SO2':
       PIN_NUMBER='(26)';
-      INPUT_LOAD='(*)';
-    'SHC':
+      OUTPUT_LOAD='(*)';
+    'AVDD':
       PIN_NUMBER='(27)';
-      INPUT_LOAD='(*)';
-    'GHC':
+      PINUSE='POWER';
+    'AGND':
       PIN_NUMBER='(28)';
-      OUTPUT_LOAD='(*)';
-    'GHB':
+      PINUSE='POWER';
+    'PVDD1':
       PIN_NUMBER='(29)';
-      OUTPUT_LOAD='(*)';
-    'SHB':
+      PINUSE='POWER';
+    'SP2':
       PIN_NUMBER='(30)';
       INPUT_LOAD='(*)';
-    'SLB':
+    'SN2':
       PIN_NUMBER='(31)';
       INPUT_LOAD='(*)';
-    'GLB':
+    'SP1':
       PIN_NUMBER='(32)';
-      OUTPUT_LOAD='(*)';
-    'GLA':
+      INPUT_LOAD='(*)';
+    'SN1':
       PIN_NUMBER='(33)';
-      OUTPUT_LOAD='(*)';
-    'SLA':
+      INPUT_LOAD='(*)';
+    'SL_C':
       PIN_NUMBER='(34)';
       INPUT_LOAD='(*)';
-    'SHA':
+    'GL_C':
       PIN_NUMBER='(35)';
-      INPUT_LOAD='(*)';
-    'GHA':
-      PIN_NUMBER='(36)';
       OUTPUT_LOAD='(*)';
-    'VCP_LSD':
+    'SH_C':
+      PIN_NUMBER='(36)';
+      INPUT_LOAD='(*)';
+    'GH_C':
       PIN_NUMBER='(37)';
-      PINUSE='POWER';
-    'VCPH':
+      OUTPUT_LOAD='(*)';
+    'BST_C':
       PIN_NUMBER='(38)';
       PINUSE='POWER';
-    'CP2H':
+    'SL_B':
       PIN_NUMBER='(39)';
-      PINUSE='POWER';
-    'CP2L':
+      INPUT_LOAD='(*)';
+    'GL_B':
       PIN_NUMBER='(40)';
-      PINUSE='POWER';
-    'PVDD':
+      OUTPUT_LOAD='(*)';
+    'SH_B':
       PIN_NUMBER='(41)';
-      PINUSE='POWER';
-    'CP1L':
+      INPUT_LOAD='(*)';
+    'GH_B':
       PIN_NUMBER='(42)';
-      PINUSE='POWER';
-    'CP1H':
+      OUTPUT_LOAD='(*)';
+    'BST_B':
       PIN_NUMBER='(43)';
       PINUSE='POWER';
-    'VDRAIN':
+    'SL_A':
       PIN_NUMBER='(44)';
-      PINUSE='POWER';
-    'GND#45':
-      PIN_NUMBER='(45)';
-      PINUSE='POWER';
-    'DVDD':
-      PIN_NUMBER='(46)';
-      PINUSE='POWER';
-    'WAKE':
-      PIN_NUMBER='(47)';
       INPUT_LOAD='(*)';
-    'VREF':
+    'GL_A':
+      PIN_NUMBER='(45)';
+      OUTPUT_LOAD='(*)';
+    'SH_A':
+      PIN_NUMBER='(46)';
+      INPUT_LOAD='(*)';
+    'GH_A':
+      PIN_NUMBER='(47)';
+      OUTPUT_LOAD='(*)';
+    'BST_A':
       PIN_NUMBER='(48)';
       PINUSE='POWER';
+    'VDD_SPI':
+      PIN_NUMBER='(49)';
+      PINUSE='POWER';
+    'PH_1':
+      PIN_NUMBER='(50)';
+      OUTPUT_LOAD='(*)';
+    'PH_2':
+      PIN_NUMBER='(51)';
+      OUTPUT_LOAD='(*)';
+    'BST_BK':
+      PIN_NUMBER='(52)';
+      PINUSE='POWER';
+    'PVDD2_1':
+      PIN_NUMBER='(53)';
+      PINUSE='POWER';
+    'PVDD2_2':
+      PIN_NUMBER='(54)';
+      PINUSE='POWER';
+    'EN_BUCK':
+      PIN_NUMBER='(55)';
+      INPUT_LOAD='(*)';
+    'SS_TR':
+      PIN_NUMBER='(56)';
+      INPUT_LOAD='(*)';
   end_pin;
   body
-    PART_NAME='DRV8305_0';
-    JEDEC_TYPE='HTQFP48';
-    VALUE='DRV8305N';
+    PART_NAME='DRV8301';
+    JEDEC_TYPE='HTSSOP56';
+    VALUE='DRV8301';
   end_body;
 end_primitive;
 END.

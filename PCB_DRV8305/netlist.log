@@ -1,4 +1,4 @@
-{ Using PSTWRITER 16.6.0 d001Jan-06-2018 at 17:07:29 }
+{ Using PSTWRITER 17.2.0 d001Feb-11-2018 at 20:44:04 }
 
 #1 WARNING(ORCAP-36038): "No_connect" property on Pin "MCU1.46" ignored for MCU1: SCHEMATIC1, controller (2.80, 2.40). Connecting pin to net "N3770874".
 #2 WARNING(ORCAP-36038): "No_connect" property on Pin "MCU1.45" ignored for MCU1: SCHEMATIC1, controller (2.80, 2.40). Connecting pin to net "N3770878".
@@ -17,11 +17,11 @@
 #15 WARNING(ORCAP-36042): Pin "GND" is renamed to "GND#45" as visible power pin of same name already exists in Package DRV8305_0 , U1: SCHEMATIC1, mosfet_driver (1.90, 1.40).
 INFO(ORCAP-36080): Scanning netlist files ...
 
-Loading... G:\GEEK\PROJECTS\REMOTE_CAR\PCB/pstchip.dat
+Loading... G:\GEEK\PROJECTS\REMOTE_CAR\PCB\PCB_DRV8305/pstchip.dat
 
-Loading... G:\GEEK\PROJECTS\REMOTE_CAR\PCB/pstchip.dat
+Loading... G:\GEEK\PROJECTS\REMOTE_CAR\PCB\PCB_DRV8305/pstchip.dat
 
-Loading... G:\GEEK\PROJECTS\REMOTE_CAR\PCB/pstxprt.dat
+Loading... G:\GEEK\PROJECTS\REMOTE_CAR\PCB\PCB_DRV8305/pstxprt.dat
 
-Loading... G:\GEEK\PROJECTS\REMOTE_CAR\PCB/pstxnet.dat
+Loading... G:\GEEK\PROJECTS\REMOTE_CAR\PCB\PCB_DRV8305/pstxnet.dat
 packaging the design view...

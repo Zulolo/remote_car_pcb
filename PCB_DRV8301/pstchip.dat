@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Feb-10-2018 at 21:23:08}
+{ Using PSTWRITER 17.2.0 d001Feb-11-2018 at 21:38:30}
 primitive 'CAP NP_SMD_C_0805_2.2NF';
   pin
     '1':
@@ -210,7 +210,7 @@ primitive 'DIODE TVS_SOD323_3.3V';
     VALUE='3.3V';
   end_body;
 end_primitive;
-primitive 'C1X7_CONN1X7_JTAG';
+primitive 'C1X7_C1X7P127_JTAG';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -236,11 +236,11 @@ primitive 'C1X7_CONN1X7_JTAG';
   end_pin;
   body
     PART_NAME='C1X7';
-    JEDEC_TYPE='conn1x7';
+    JEDEC_TYPE='c1X7p127';
     VALUE='JTAG';
   end_body;
 end_primitive;
-primitive 'BANANA_BANANA_MOTOR_A';
+primitive 'BANANA_BANANA_SMALL_MOTOR_A';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -248,11 +248,11 @@ primitive 'BANANA_BANANA_MOTOR_A';
   end_pin;
   body
     PART_NAME='Banana';
-    JEDEC_TYPE='Banana';
+    JEDEC_TYPE='Banana_small';
     VALUE='motor_A';
   end_body;
 end_primitive;
-primitive 'BANANA_BANANA_MOTOR_B';
+primitive 'BANANA_BANANA_SMALL_MOTOR_B';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -260,11 +260,11 @@ primitive 'BANANA_BANANA_MOTOR_B';
   end_pin;
   body
     PART_NAME='Banana';
-    JEDEC_TYPE='Banana';
+    JEDEC_TYPE='Banana_small';
     VALUE='motor_B';
   end_body;
 end_primitive;
-primitive 'BANANA_BANANA_MOTOR_C';
+primitive 'BANANA_BANANA_SMALL_MOTOR_C';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -272,11 +272,11 @@ primitive 'BANANA_BANANA_MOTOR_C';
   end_pin;
   body
     PART_NAME='Banana';
-    JEDEC_TYPE='Banana';
+    JEDEC_TYPE='Banana_small';
     VALUE='motor_C';
   end_body;
 end_primitive;
-primitive 'BANANA_BANANA_POWER_P';
+primitive 'BANANA_BANANA_SMALL_POWER_P';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -284,7 +284,7 @@ primitive 'BANANA_BANANA_POWER_P';
   end_pin;
   body
     PART_NAME='Banana';
-    JEDEC_TYPE='Banana';
+    JEDEC_TYPE='Banana_small';
     VALUE='power_P';
   end_body;
 end_primitive;
@@ -309,7 +309,7 @@ primitive 'C1X4GEN_CONN1X4_CONN1X4';
     VALUE='Conn1X4';
   end_body;
 end_primitive;
-primitive 'BANANA_BANANA_POWER_GND';
+primitive 'BANANA_BANANA_SMALL_POWER_GND';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -317,7 +317,7 @@ primitive 'BANANA_BANANA_POWER_GND';
   end_pin;
   body
     PART_NAME='Banana';
-    JEDEC_TYPE='Banana';
+    JEDEC_TYPE='Banana_small';
     VALUE='power_GND';
   end_body;
 end_primitive;
@@ -518,7 +518,7 @@ primitive 'N_MOSFET_TO252-263_TO252AA_ZK_I';
   end_pin;
   body
     PART_NAME='N_MOSFET_TO252-263';
-    JEDEC_TYPE='TO252AA_ZK';
+    JEDEC_TYPE='TO252AA_zk';
     VALUE='IRLR7843-TO252AA';
   end_body;
 end_primitive;

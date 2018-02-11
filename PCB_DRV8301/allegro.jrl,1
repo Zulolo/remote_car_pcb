@@ -1,0 +1,904 @@
+\t (00:05:07) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:05:07)     Journal start - Sun Feb 11 20:45:22 2018
+\t (00:05:07)         Host=ZULOLO-PC User=Zulolo Pid=8008 CPUs=8
+\t (00:05:07) CmdLine= D:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:05:07) 
+\d (00:05:07) Design opened: G:/Geek/Projects/remote_car/PCB/PCB_DRV8301/ti_foc_motor_8301.brd
+\i (00:05:07) generaledit 
+\i (00:05:12) netin 
+\i (00:05:14) setwindow form.niparams
+\i (00:05:14) FORM niparams browse  
+\i (00:05:20) fillin "G:/Geek/Projects/remote_car/PCB/PCB_DRV8301"
+\i (00:05:21) FORM niparams import  
+\t (00:05:21) Starting Cadence Logic Import...
+\t (00:05:22) Opening existing design...
+\t (00:05:22) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (00:05:22) setwindow pcb
+\i (00:05:22) trapsize 10291
+\i (00:05:23) generaledit 
+\i (00:05:25) roam start
+\i (00:05:25) roam end
+\i (00:05:25) zoom in 1 
+\i (00:05:25) setwindow pcb
+\i (00:05:25) zoom in 27.0198 23.1093
+\t (00:05:25) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:05:25) trapsize 5145
+\i (00:05:26) roam start
+\i (00:05:26) roam y 32
+\i (00:05:26) roam y 80
+\i (00:05:26) roam end
+\i (00:05:33) prmed 
+\i (00:05:34) setwindow form.prmedit
+\i (00:05:34) FORM prmedit cancel  
+\i (00:05:35) setwindow pcb
+\i (00:05:35) generaledit 
+\i (00:05:41) color192 
+\i (00:05:41) generaledit 
+\i (00:05:47) QtSignal CVDLayerContainer CVDVisibilityOff clicked
+\i (00:05:51) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:05:57) QtSignal CVDLayerTable VertHeader clickedCheckBox 0
+\i (00:05:57) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Top Pin
+\i (00:05:57) QtSignal CVDLayerTable VertHeader clickedCheckBox 1
+\i (00:05:57) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Power Pin
+\i (00:05:59) QtSignal CVDLayerTable VertHeader clickedCheckBox 2
+\i (00:05:59) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Gnd Pin
+\i (00:05:59) QtSignal CVDLayerTable VertHeader clickedCheckBox 3
+\i (00:05:59) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Bottom Pin
+\i (00:06:24) QtSignal ColorVisibilityDialog CVDTabs currentChanged Display
+\i (00:06:29) QtSignal Classes CVDVisibleClassSelector currentRowChanged 0
+\i (00:06:29) QtSignal ColorVisibilityDialog CVDTabs currentChanged "Visibility Pane"
+\i (00:06:30) QtSignal ColorVisibilityDialog CVDTabs currentChanged Layers
+\i (00:06:35) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Manufacturing
+\i (00:06:38) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:06:39) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 0 0
+\i (00:06:39) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Autosilk_Bottom Mfg
+\i (00:06:39) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:06:40) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:06:40) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 1 0
+\i (00:06:40) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Autosilk_Top Mfg
+\i (00:06:40) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:06:42) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:07:01) QtSignal CVDLayerSplitter CVDLayersTree itemSelectionChanged Geometry "Board geometry"
+\i (00:07:18) QtSignal CVDLayerTable CVDLayerTableDelegate clickedBox 9 0
+\i (00:07:18) QtSignal CVDLayerSplitter CVDLayerTable dataChanged Outline BrdGeo
+\i (00:07:18) QtSignal CVDLayerSplitter CVDLayerTable selectionChanged
+\i (00:07:20) QtSignal ColorVisibilityDialog CVDApplyButton clicked
+\i (00:07:21) QtSignal ColorVisibilityDialog CVDOkButton clicked
+\i (00:07:22) zoom in 1 
+\i (00:07:22) setwindow pcb
+\i (00:07:22) zoom in 49.7623 14.0535
+\t (00:07:22) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:07:22) trapsize 2573
+\i (00:07:23) zoom out 1 
+\i (00:07:23) setwindow pcb
+\i (00:07:23) zoom out 49.4021 14.6710
+\t (00:07:23) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:07:23) trapsize 5145
+\i (00:07:23) roam start
+\i (00:07:24) roam end
+\i (00:07:39) delete 
+\i (00:07:42) setwindow form.find
+\i (00:07:42) FORM find shapes YES 
+\i (00:07:45) FORM find cline_segs NO 
+\i (00:07:50) FORM find shapes NO 
+\i (00:07:51) FORM find clines YES 
+\i (00:07:53) setwindow pcb
+\i (00:07:53) drag_start grid 55.0106 0.5727
+\i (00:07:54) drag_stop -0.2506 76.8269
+\i (00:07:55) pick grid 88.0438 55.6280
+\t (00:07:55) last pick:  88.0000 55.6000
+\i (00:07:57) drag_start grid 52.9525 -0.7651
+\i (00:07:58) drag_stop -0.7651 84.5450
+\i (00:07:58) pick grid 90.9252 46.6751
+\t (00:07:58) last pick:  90.9000 46.7000
+\i (00:08:00) setwindow form.find
+\i (00:08:00) FORM find clines NO 
+\i (00:08:01) FORM find shapes YES 
+\i (00:08:03) setwindow pcb
+\i (00:08:03) drag_start grid 56.0397 -0.9710
+\i (00:08:05) drag_stop -0.7651 76.5182
+\i (00:08:06) pick grid 83.2072 46.2635
+\t (00:08:06) last pick:  83.2000 46.3000
+\i (00:08:09) prepopup 56.0397 55.6280
+\i (00:08:10) done 
+\i (00:08:10) generaledit 
+\i (00:08:11) zoom in 1 
+\i (00:08:11) setwindow pcb
+\i (00:08:11) zoom in 15.9059 20.6396
+\t (00:08:11) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:08:11) trapsize 2573
+\i (00:08:11) roam start
+\i (00:08:11) roam x -80
+\i (00:08:11) roam y 64
+\i (00:08:11) roam x -80
+\i (00:08:11) roam y 144
+\i (00:08:12) roam end
+\i (00:08:13) zoom out 1 
+\i (00:08:13) setwindow pcb
+\i (00:08:13) zoom out 54.7534 32.9885
+\t (00:08:13) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:08:13) trapsize 5145
+\i (00:08:16) delete 
+\i (00:08:17) setwindow form.find
+\i (00:08:17) FORM find shapes NO 
+\i (00:08:18) FORM find vias YES 
+\i (00:08:19) setwindow pcb
+\i (00:08:19) drag_start grid 55.1135 76.7240
+\i (00:08:20) drag_stop -0.7651 -1.4855
+\i (00:08:21) pick grid 68.9031 37.0018
+\t (00:08:21) last pick:  68.9000 37.0000
+\i (00:08:32) prepopup 68.3885 36.4873
+\i (00:08:33) done 
+\i (00:08:33) generaledit 
+\i (00:08:34) zoom in 1 
+\i (00:08:34) setwindow pcb
+\i (00:08:34) zoom in 41.0152 16.1117
+\t (00:08:34) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:08:34) trapsize 2573
+\i (00:08:34) zoom in 1 
+\i (00:08:34) setwindow pcb
+\i (00:08:34) zoom in 41.0152 16.1117
+\t (00:08:34) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:08:34) trapsize 1286
+\i (00:08:46) zoom out 1 
+\i (00:08:46) setwindow pcb
+\i (00:08:46) zoom out 45.6460 22.1318
+\t (00:08:46) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:08:46) trapsize 2573
+\i (00:08:46) roam start
+\i (00:08:46) roam x -48
+\i (00:08:46) roam y 48
+\i (00:08:46) roam x -96
+\i (00:08:46) roam x -144
+\i (00:08:46) roam x -32
+\i (00:08:47) roam end
+\i (00:08:48) zoom in 1 
+\i (00:08:48) setwindow pcb
+\i (00:08:48) zoom in 30.6216 7.4675
+\t (00:08:48) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:08:48) trapsize 1286
+\i (00:08:48) zoom out 1 
+\i (00:08:48) setwindow pcb
+\i (00:08:48) zoom out 30.7245 7.6476
+\t (00:08:48) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:08:48) trapsize 2573
+\i (00:09:02) setwindow form.mini
+\i (00:09:02) FORM mini class MANUFACTURING 
+\i (00:09:04) FORM mini subclass AUTOSILK_BOTTOM 
+\i (00:09:05) FORM mini subcolor 0 
+\i (00:09:06) FORM mini subcolor 1 
+\i (00:09:07) FORM mini subcolor 0 
+\i (00:09:08) FORM mini subcolor 1 
+\i (00:09:09) FORM mini subcolor 0 
+\i (00:09:10) FORM mini subcolor 1 
+\i (00:09:17) FORM mini subcolor 0 
+\i (00:09:18) FORM mini subcolor 1 
+\i (00:09:31) FORM mini subclass AUTOSILK_TOP 
+\i (00:09:33) FORM mini subcolor 0 
+\i (00:09:33) FORM mini subcolor 1 
+\i (00:09:34) FORM mini subcolor 0 
+\i (00:09:36) FORM mini subcolor 1 
+\i (00:09:40) FORM mini subcolor 0 
+\i (00:09:41) FORM mini subcolor 1 
+\i (00:09:45) setwindow pcb
+\i (00:09:45) delete 
+\i (00:09:47) setwindow form.find
+\i (00:09:47) FORM find vias NO 
+\i (00:09:48) FORM find text YES 
+\i (00:09:49) FORM find lines YES 
+\i (00:09:50) setwindow pcb
+\i (00:09:50) zoom out 1 
+\i (00:09:50) setwindow pcb
+\i (00:09:50) zoom out 56.1425 7.4418
+\t (00:09:50) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:09:50) trapsize 5145
+\i (00:09:51) drag_start grid 56.2455 77.0328
+\i (00:09:52) drag_stop -1.5884 -1.5884
+\i (00:09:53) pick grid 71.2699 28.1518
+\t (00:09:53) last pick:  71.3000 28.2000
+\i (00:09:53) prepopup 54.9077 34.3263
+\i (00:09:55) done 
+\i (00:09:55) generaledit 
+\i (00:09:56) zoom in 1 
+\i (00:09:56) setwindow pcb
+\i (00:09:56) zoom in 43.8966 25.9908
+\t (00:09:56) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:09:56) trapsize 2573
+\i (00:09:57) prepopup 53.6213 33.8117
+\i (00:09:58) pick grid 61.9568 39.0600
+\t (00:09:58) last pick:  62.0000 39.1000
+\i (00:10:04) setwindow form.mini
+\i (00:10:04) FORM mini class BOARD GEOMETRY 
+\i (00:10:08) FORM mini subclass OUTLINE 
+\i (00:10:11) FORM mini subclass SILKSCREEN_TOP 
+\i (00:10:12) FORM mini subcolor 1 
+\i (00:10:14) FORM mini subclass SILKSCREEN_BOTTOM 
+\i (00:10:15) FORM mini subcolor 1 
+\i (00:10:15) setwindow pcb
+\i (00:10:15) pick grid 60.0016 38.5455
+\t (00:10:15) last pick:  60.0000 38.5000
+\i (00:10:16) zoom out 1 
+\i (00:10:16) setwindow pcb
+\i (00:10:16) zoom out 58.3551 39.1115
+\t (00:10:16) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:10:16) trapsize 5145
+\i (00:10:18) delete 
+\i (00:10:21) drag_start grid 57.5833 78.2676
+\i (00:10:23) drag_stop 0.4698 -1.1767
+\i (00:10:24) pick grid 87.5293 39.0600
+\t (00:10:24) last pick:  87.5000 39.1000
+\i (00:10:24) prepopup 61.9054 48.0129
+\i (00:10:25) done 
+\i (00:10:25) generaledit 
+\i (00:10:32) setwindow form.mini
+\i (00:10:32) FORM mini class PACKAGE GEOMETRY 
+\i (00:10:34) FORM mini subclass ASSEMBLY_TOP 
+\i (00:10:34) FORM mini subcolor 1 
+\i (00:10:36) FORM mini subclass ASSEMBLY_BOTTOM 
+\i (00:10:36) FORM mini subcolor 1 
+\i (00:10:42) setwindow pcb
+\i (00:10:42) pick grid 91.8514 40.3978
+\t (00:10:42) last pick:  91.9000 40.4000
+\i (00:10:43) zoom in 1 
+\i (00:10:43) setwindow pcb
+\i (00:10:43) zoom in 25.4762 18.3756
+\t (00:10:43) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:10:43) trapsize 2573
+\i (00:10:43) zoom in 1 
+\i (00:10:43) setwindow pcb
+\i (00:10:43) zoom in 25.4762 18.3756
+\t (00:10:43) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:10:43) trapsize 1286
+\i (00:10:47) zoom in 1 
+\i (00:10:47) setwindow pcb
+\i (00:10:47) zoom in 25.1161 18.5557
+\i (00:10:47) trapsize 643
+\i (00:10:49) zoom out 1 
+\i (00:10:49) setwindow pcb
+\i (00:10:49) zoom out 24.7816 18.6200
+\i (00:10:49) trapsize 1286
+\i (00:10:54) setwindow form.mini
+\i (00:10:54) FORM mini subclass SILKSCREEN_TOP 
+\i (00:10:56) FORM mini subcolor 1 
+\i (00:10:57) FORM mini subcolor 0 
+\i (00:10:57) FORM mini subcolor 1 
+\i (00:10:59) FORM mini subcolor 0 
+\i (00:10:59) FORM mini subcolor 1 
+\i (00:11:01) FORM mini subcolor 0 
+\i (00:11:02) FORM mini subcolor 1 
+\i (00:11:11) FORM mini subclass SILKSCREEN_BOTTOM 
+\i (00:11:12) FORM mini subcolor 1 
+\i (00:11:14) setwindow pcb
+\i (00:11:14) prepopup 49.5823 26.8269
+\i (00:11:14) pick grid 48.2703 29.5540
+\t (00:11:14) last pick:  48.3000 29.6000
+\i (00:11:15) zoom out 1 
+\i (00:11:15) setwindow pcb
+\i (00:11:15) zoom out 29.5154 26.8527
+\t (00:11:15) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:11:15) trapsize 2573
+\i (00:11:16) roam start
+\i (00:11:16) roam x -192
+\i (00:11:16) roam y 16
+\i (00:11:17) roam end
+\i (00:11:24) save 
+\i (00:11:25) fillin yes 
+\i (00:11:26) generaledit 
+\i (00:11:36) zoom out 1 
+\i (00:11:36) setwindow pcb
+\i (00:11:36) zoom out 24.8589 17.7069
+\t (00:11:36) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:11:36) trapsize 5145
+\i (00:15:43) xhilite 
+\i (00:15:43) xrefdes J2 
+\i (00:15:43) xname_flush 
+\t (00:15:43) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:15:43) trapsize 1814
+\t (00:15:43) Symbol "J2" highlighted.
+\i (00:15:43) done 
+\i (00:15:43) generaledit 
+\i (00:16:30) xhilite 
+\i (00:16:30) xname_flush 
+\i (00:16:30) done 
+\i (00:16:30) generaledit 
+\i (00:30:10) xdehilite 
+\i (00:30:10) xrefdes J2 
+\i (00:30:10) xname_flush 
+\t (00:30:10) Symbol "J2" dehighlighted.
+\i (00:30:10) done 
+\i (00:30:10) xhilite 
+\i (00:30:10) xrefdes J3 
+\i (00:30:10) xname_flush 
+\i (00:30:10) trapsize 1814
+\t (00:30:10) Symbol "J3" highlighted.
+\i (00:30:10) done 
+\i (00:30:10) generaledit 
+\i (00:30:23) xdehilite 
+\i (00:30:23) xrefdes J3 
+\i (00:30:23) xname_flush 
+\t (00:30:23) Symbol "J3" dehighlighted.
+\i (00:30:23) done 
+\i (00:30:23) xhilite 
+\i (00:30:23) xrefdes J4 
+\i (00:30:23) xname_flush 
+\i (00:30:24) trapsize 1814
+\t (00:30:24) Symbol "J4" highlighted.
+\i (00:30:24) done 
+\i (00:30:24) generaledit 
+\i (00:30:40) xdehilite 
+\i (00:30:40) xrefdes J4 
+\i (00:30:40) xname_flush 
+\t (00:30:40) Symbol "J4" dehighlighted.
+\i (00:30:40) done 
+\i (00:30:40) xhilite 
+\i (00:30:40) xrefdes Tp1 
+\i (00:30:40) xname_flush 
+\i (00:30:40) trapsize 362
+\t (00:30:40) Symbol "Tp1" highlighted.
+\i (00:30:40) done 
+\i (00:30:40) generaledit 
+\i (00:30:57) xdehilite 
+\i (00:30:58) xrefdes Tp1 
+\i (00:30:58) xname_flush 
+\t (00:30:58) Symbol "Tp1" dehighlighted.
+\i (00:30:58) done 
+\i (00:30:58) generaledit 
+\i (00:30:59) xhilite 
+\i (00:30:59) xrefdes J5 
+\i (00:30:59) xname_flush 
+\i (00:30:59) trapsize 1814
+\t (00:30:59) Symbol "J5" highlighted.
+\i (00:30:59) done 
+\i (00:30:59) generaledit 
+\i (00:31:10) xdehilite 
+\i (00:31:10) xrefdes J5 
+\i (00:31:10) xname_flush 
+\t (00:31:10) Symbol "J5" dehighlighted.
+\i (00:31:10) done 
+\i (00:31:10) xhilite 
+\i (00:31:10) xrefdes J7 
+\i (00:31:10) xname_flush 
+\i (00:31:10) trapsize 1814
+\t (00:31:10) Symbol "J7" highlighted.
+\i (00:31:10) done 
+\i (00:31:11) generaledit 
+\i (00:32:03) netin 
+\i (00:32:04) setwindow form.niparams
+\i (00:32:04) FORM niparams import  
+\t (00:32:04) Starting Cadence Logic Import...
+\t (00:32:05) Opening existing design...
+\t (00:32:05) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:32:05) setwindow pcb
+\i (00:32:05) trapsize 1814
+\i (00:32:06) generaledit 
+\i (00:32:07) zoom out 1 
+\i (00:32:07) setwindow pcb
+\i (00:32:07) zoom out 33.0599 14.7276
+\t (00:32:07) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:32:07) trapsize 3629
+\i (00:32:08) roam start
+\i (00:32:08) roam x -16
+\i (00:32:08) roam y -32
+\i (00:32:08) roam y -96
+\i (00:32:08) roam y -48
+\i (00:32:08) roam y -32
+\i (00:32:08) roam y -48
+\i (00:32:09) roam end
+\i (00:32:48) QtSignal CVPLayerGrid CVPBoxAllGnd clicked false
+\i (00:32:49) QtSignal CVPLayerGrid CVPBoxAllPower clicked false
+\i (00:32:50) QtSignal CVPLayerGrid CVPBoxAllBottom clicked false
+\i (00:32:51) zoom in 1 
+\i (00:32:51) setwindow pcb
+\i (00:32:51) zoom in 9.1034 54.2425
+\t (00:32:51) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:32:51) trapsize 1814
+\i (00:33:05) setwindow form.mini
+\i (00:33:05) FORM mini subcolor 0 
+\i (00:33:17) FORM mini subclass SILKSCREEN_TOP 
+\i (00:33:19) FORM mini subcolor 0 
+\i (00:33:21) setwindow pcb
+\i (00:33:21) zoom in 1 
+\i (00:33:21) setwindow pcb
+\i (00:33:21) zoom in 38.0955 43.4295
+\i (00:33:21) trapsize 907
+\i (00:33:21) zoom in 1 
+\i (00:33:21) setwindow pcb
+\i (00:33:21) zoom in 37.8053 43.4295
+\i (00:33:21) trapsize 454
+\i (00:33:22) zoom out 1 
+\i (00:33:22) setwindow pcb
+\i (00:33:22) zoom out 34.2221 44.1916
+\i (00:33:22) trapsize 907
+\i (00:33:22) zoom out 1 
+\i (00:33:22) setwindow pcb
+\i (00:33:22) zoom out 32.7344 46.7678
+\i (00:33:22) trapsize 1814
+\i (00:33:23) zoom in 1 
+\i (00:33:23) setwindow pcb
+\i (00:33:23) zoom in 29.9405 56.9276
+\i (00:33:23) trapsize 907
+\i (00:33:23) zoom in 1 
+\i (00:33:23) setwindow pcb
+\i (00:33:23) zoom in 29.9406 56.9276
+\i (00:33:23) trapsize 454
+\i (00:33:24) zoom out 1 
+\i (00:33:24) setwindow pcb
+\i (00:33:24) zoom out 32.1721 54.8775
+\i (00:33:24) trapsize 907
+\i (00:33:29) setwindow form.mini
+\i (00:33:29) FORM mini class MANUFACTURING 
+\i (00:33:31) FORM mini subclass AUTOSILK_BOTTOM 
+\i (00:33:33) FORM mini subcolor 0 
+\i (00:33:33) FORM mini subcolor 1 
+\i (00:33:36) setwindow pcb
+\i (00:33:36) zoom out 1 
+\i (00:33:36) setwindow pcb
+\i (00:33:36) zoom out 38.5765 54.1337
+\i (00:33:36) trapsize 1814
+\i (00:33:38) zoom out 1 
+\i (00:33:38) setwindow pcb
+\i (00:33:38) zoom out 38.5765 54.2063
+\t (00:33:38) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:33:38) trapsize 3629
+\i (00:33:39) roam start
+\i (00:33:39) roam y 96
+\i (00:33:39) roam y 80
+\i (00:33:39) roam y 80
+\i (00:33:39) roam y 48
+\i (00:33:40) roam end
+\i (00:33:41) zoom in 1 
+\i (00:33:41) setwindow pcb
+\i (00:33:41) zoom in 24.2706 19.5535
+\t (00:33:41) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:33:41) trapsize 1814
+\i (00:33:41) zoom in 1 
+\i (00:33:41) setwindow pcb
+\i (00:33:41) zoom in 24.0892 19.6624
+\i (00:33:41) trapsize 907
+\i (00:33:41) zoom out 1 
+\i (00:33:41) setwindow pcb
+\i (00:33:41) zoom out 23.9622 19.8076
+\i (00:33:41) trapsize 1814
+\i (00:33:41) zoom out 1 
+\i (00:33:41) setwindow pcb
+\i (00:33:41) zoom out 23.9623 19.8076
+\t (00:33:41) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:33:41) trapsize 3629
+\i (00:33:42) roam start
+\i (00:33:42) roam y -32
+\i (00:33:42) roam y -96
+\i (00:33:42) roam y -112
+\i (00:33:42) roam end
+\i (00:33:45) setwindow form.mini
+\i (00:33:45) FORM mini subclass AUTOSILK_TOP 
+\i (00:33:46) FORM mini subcolor 0 
+\i (00:33:47) FORM mini subclass AUTOSILK_BOTTOM 
+\i (00:33:48) FORM mini subcolor 0 
+\i (00:33:49) setwindow pcb
+\i (00:33:49) zoom in 1 
+\i (00:33:49) setwindow pcb
+\i (00:33:49) zoom in 31.2919 59.8303
+\t (00:33:49) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:33:49) trapsize 1814
+\i (00:33:49) zoom in 1 
+\i (00:33:49) setwindow pcb
+\i (00:33:49) zoom in 31.4370 59.8666
+\i (00:33:49) trapsize 907
+\i (00:33:50) zoom out 1 
+\i (00:33:50) setwindow pcb
+\i (00:33:50) zoom out 31.4370 59.8667
+\i (00:33:50) trapsize 1814
+\i (00:33:52) setwindow form.mini
+\i (00:33:52) FORM mini subcolor 1 
+\i (00:33:53) setwindow pcb
+\i (00:33:53) zoom out 1 
+\i (00:33:53) setwindow pcb
+\i (00:33:53) zoom out 29.8768 62.5154
+\t (00:33:53) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:33:53) trapsize 3629
+\i (00:33:53) zoom out 1 
+\i (00:33:53) setwindow pcb
+\i (00:33:53) zoom out 26.6111 60.1933
+\t (00:33:53) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:33:53) trapsize 7257
+\i (00:33:54) roam start
+\i (00:33:55) roam end
+\i (00:33:56) delete 
+\i (00:33:59) setwindow form.find
+\i (00:33:59) FORM find text NO 
+\i (00:34:01) setwindow pcb
+\i (00:34:01) zoom in 1 
+\i (00:34:01) setwindow pcb
+\i (00:34:01) zoom in 49.6704 56.2017
+\t (00:34:01) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:34:01) trapsize 3629
+\i (00:34:02) zoom out 1 
+\i (00:34:02) setwindow pcb
+\i (00:34:02) zoom out 51.6298 59.6126
+\t (00:34:02) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:34:02) trapsize 7257
+\i (00:34:04) drag_start grid 65.9262 79.2792
+\i (00:34:06) drag_stop 0.0320 -0.5486
+\i (00:34:06) pick grid 76.5216 44.4453
+\t (00:34:06) last pick:  76.5000 44.4000
+\i (00:34:10) prepopup 67.6679 59.3949
+\i (00:34:11) done 
+\i (00:34:11) generaledit 
+\i (00:34:15) setwindow form.mini
+\i (00:34:15) FORM mini subclass AUTOSILK_TOP 
+\i (00:34:16) FORM mini subcolor 1 
+\i (00:34:18) setwindow pcb
+\i (00:34:18) delete 
+\i (00:34:19) drag_start grid 58.3789 75.6507
+\i (00:34:22) drag_stop 0.4674 -0.4034
+\i (00:34:22) prepopup 63.8942 32.6888
+\i (00:34:23) done 
+\i (00:34:23) generaledit 
+\i (00:34:25) zoom in 1 
+\i (00:34:25) setwindow pcb
+\i (00:34:25) zoom in 37.0431 28.0443
+\t (00:34:25) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:34:25) trapsize 3629
+\i (00:34:26) zoom in 1 
+\i (00:34:26) setwindow pcb
+\i (00:34:26) zoom in 37.0431 28.0443
+\t (00:34:26) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:34:26) trapsize 1814
+\i (00:34:27) roam start
+\i (00:34:27) roam x -112
+\i (00:34:27) roam y -80
+\i (00:34:27) roam x -80
+\i (00:34:27) roam y -48
+\i (00:34:27) roam x -80
+\i (00:34:27) roam y -64
+\i (00:34:27) roam x -112
+\i (00:34:27) roam y -64
+\i (00:34:27) roam x -64
+\i (00:34:27) roam y -32
+\i (00:34:27) roam x -80
+\i (00:34:27) roam y -64
+\i (00:34:27) roam x -80
+\i (00:34:27) roam y -48
+\i (00:34:27) roam x -80
+\i (00:34:27) roam y -64
+\i (00:34:27) roam end
+\i (00:34:28) zoom in 1 
+\i (00:34:28) setwindow pcb
+\i (00:34:28) zoom in 11.2805 53.4440
+\i (00:34:28) trapsize 907
+\i (00:34:31) prepopup 15.5259 55.9840
+\i (00:34:32) pick grid 16.2879 56.8911
+\t (00:34:32) last pick:  16.3000 56.9000
+\i (00:34:32) zoom out 1 
+\i (00:34:32) setwindow pcb
+\i (00:34:32) zoom out 16.2879 56.8911
+\i (00:34:32) trapsize 1814
+\i (00:34:36) setwindow form.mini
+\i (00:34:36) FORM mini class PACKAGE GEOMETRY 
+\i (00:34:39) FORM mini subclass SILKSCREEN_TOP 
+\i (00:34:40) FORM mini subcolor 1 
+\i (00:34:42) setwindow pcb
+\i (00:34:42) zoom in 1 
+\i (00:34:42) setwindow pcb
+\i (00:34:42) zoom in 4.3862 56.0566
+\i (00:34:42) trapsize 907
+\i (00:34:43) prepopup 4.3681 56.2925
+\i (00:34:44) pick grid 2.3724 54.7504
+\t (00:34:44) last pick:  2.4000 54.8000
+\i (00:34:45) save 
+\i (00:34:47) fillin yes 
+\i (00:34:47) generaledit 
+\i (00:40:40) xhilite 
+\i (00:40:40) xrefdes Mosfet4 
+\i (00:40:40) xname_flush 
+\i (00:40:40) trapsize 1873
+\t (00:40:40) Symbol "Mosfet4" highlighted.
+\i (00:40:40) done 
+\i (00:40:40) generaledit 
+\i (00:40:58) xhilite 
+\i (00:40:58) xname_flush 
+\i (00:40:58) done 
+\i (00:40:58) generaledit 
+\i (00:41:21) xhilite 
+\i (00:41:21) xname_flush 
+\i (00:41:21) done 
+\i (00:41:21) generaledit 
+\i (00:41:44) xhilite 
+\i (00:41:44) xname_flush 
+\i (00:41:44) done 
+\i (00:41:44) generaledit 
+\i (00:43:13) xhilite 
+\i (00:43:13) xname_flush 
+\i (00:43:13) done 
+\i (00:43:13) generaledit 
+\i (00:43:30) xhilite 
+\i (00:43:30) xname_flush 
+\i (00:43:30) done 
+\i (00:43:30) generaledit 
+\i (00:46:49) xdehilite 
+\i (00:46:49) xrefdes Mosfet4 
+\i (00:46:49) xname_flush 
+\t (00:46:49) Symbol "Mosfet4" dehighlighted.
+\i (00:46:49) done 
+\i (00:46:49) generaledit 
+\i (00:47:47) zoom out 1 
+\i (00:47:47) setwindow pcb
+\i (00:47:47) zoom out 16.9277 63.5681
+\t (00:47:47) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:47:47) trapsize 3747
+\i (00:47:50) netin 
+\i (00:47:51) setwindow form.niparams
+\i (00:47:51) FORM niparams import  
+\t (00:47:51) Starting Cadence Logic Import...
+\w (00:47:52) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:47:52) Opening existing design...
+\t (00:47:52) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:47:52) setwindow pcb
+\i (00:47:52) trapsize 3747
+\i (00:47:53) generaledit 
+\i (00:48:40) setwindow text
+\i (00:48:40) close 
+\i (00:48:53) setwindow pcb
+\i (00:48:53) xhilite 
+\i (00:48:53) xname_flush 
+\i (00:48:53) done 
+\i (00:48:53) generaledit 
+\i (00:49:04) zoom in 1 
+\i (00:49:04) setwindow pcb
+\i (00:49:04) zoom in 19.5076 51.5778
+\t (00:49:04) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:49:04) trapsize 1873
+\i (00:49:05) zoom out 1 
+\i (00:49:05) setwindow pcb
+\i (00:49:05) zoom out 19.5076 51.5404
+\t (00:49:05) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:49:05) trapsize 3747
+\i (00:49:09) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:49:12) roam start
+\i (00:49:12) roam y 64
+\i (00:49:12) roam y 144
+\i (00:49:12) roam end
+\i (00:49:13) zoom in 1 
+\i (00:49:13) setwindow pcb
+\i (00:49:13) zoom in 24.8283 16.9597
+\t (00:49:13) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:49:13) trapsize 1873
+\i (00:49:13) zoom in 1 
+\i (00:49:13) setwindow pcb
+\i (00:49:13) zoom in 24.8284 16.9597
+\i (00:49:13) trapsize 937
+\i (00:49:13) zoom in 1 
+\i (00:49:13) setwindow pcb
+\i (00:49:13) zoom in 24.8284 16.9597
+\i (00:49:13) trapsize 468
+\i (00:49:14) zoom out 1 
+\i (00:49:14) setwindow pcb
+\i (00:49:14) zoom out 24.8284 16.9598
+\i (00:49:14) trapsize 937
+\i (00:49:21) setwindow form.mini
+\i (00:49:21) FORM mini subcolor 0 
+\i (00:49:21) FORM mini subcolor 1 
+\i (00:49:23) setwindow pcb
+\i (00:49:23) zoom out 1 
+\i (00:49:23) setwindow pcb
+\i (00:49:23) zoom out 29.6808 22.5052
+\i (00:49:23) trapsize 1873
+\i (00:49:24) zoom out 1 
+\i (00:49:24) setwindow pcb
+\i (00:49:24) zoom out 28.2195 20.8941
+\t (00:49:24) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:49:24) trapsize 3747
+\i (00:49:44) xhilite 
+\i (00:49:44) xrefdes Mosfet1 
+\t (00:49:44) Can not select unplaced component MOSFET1.
+\t (00:49:44) Can not select unplaced component MOSFET1.
+\i (00:49:44) xname_flush 
+\i (00:49:44) done 
+\i (00:49:44) generaledit 
+\i (00:50:16) xhilite 
+\i (00:50:16) xname_flush 
+\i (00:50:16) done 
+\i (00:50:16) generaledit 
+\i (00:50:38) netin 
+\i (00:50:43) setwindow form.niparams
+\i (00:50:43) FORM niparams import  
+\t (00:50:43) Starting Cadence Logic Import...
+\w (00:50:43) WARNING(SPMHGE-269): netrev had warnings, use Viewlog to review the log file.
+\t (00:50:43) Opening existing design...
+\t (00:50:43) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:50:43) setwindow pcb
+\i (00:50:43) trapsize 3747
+\i (00:50:44) generaledit 
+\i (00:58:21) setwindow text
+\i (00:58:21) close 
+\i (00:58:25) setwindow pcb
+\i (00:58:25) netin 
+\i (00:58:26) setwindow form.niparams
+\i (00:58:26) FORM niparams import  
+\t (00:58:26) Starting Cadence Logic Import...
+\t (00:58:27) Opening existing design...
+\t (00:58:27) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:58:27) setwindow pcb
+\i (00:58:27) trapsize 3747
+\i (00:58:28) generaledit 
+\i (00:58:30) save 
+\i (00:58:31) fillin yes 
+\i (00:58:31) generaledit 
+\i (00:58:41) setwindow form.mini
+\i (00:58:41) FORM mini class BOARD GEOMETRY 
+\i (00:58:43) FORM mini subclass OUTLINE 
+\i (00:58:46) setwindow pcb
+\i (00:58:46) add line 
+\i (00:58:49) pick 0 0 
+\t (00:58:49) last pick:  0.0000 0.0000
+\i (00:59:03) ipick 50 
+\t (00:59:03) last pick:  50.0000 0.0000
+   (00:59:03) WARNING(SPMHA2-118): Board Geometry subclasses, 'DESIGN_OUTLINE' and 'CUTOUT', are the preferred subclasses for defining a board outline. Use these subclasses instead of the 'OUTLINE' subclass.
+\i (00:59:33) fillin confirm
+\i (00:59:34) prepopup 72.8645 30.5237
+\i (00:59:36) cancel 
+\i (00:59:36) generaledit 
+\i (00:59:49) add line 
+\i (00:59:54) pick 0 0 
+\t (00:59:54) last pick:  0.0000 0.0000
+\i (00:59:57) ipick 50 
+\t (00:59:57) last pick:  50.0000 0.0000
+   (00:59:57) WARNING(SPMHA2-118): Board Geometry subclasses, 'DESIGN_OUTLINE' and 'CUTOUT', are the preferred subclasses for defining a board outline. Use these subclasses instead of the 'OUTLINE' subclass.
+\i (00:59:59) fillin confirm
+\i (01:00:03) prepopup 42.3641 31.7227
+\i (01:00:03) oops 
+\t (01:00:03) last pick:  0.0000 0.0000
+\i (01:00:06) ipick 30 
+\t (01:00:06) last pick:  30.0000 0.0000
+   (01:00:06) WARNING(SPMHA2-118): Board Geometry subclasses, 'DESIGN_OUTLINE' and 'CUTOUT', are the preferred subclasses for defining a board outline. Use these subclasses instead of the 'OUTLINE' subclass.
+\i (01:00:12) fillin confirm
+\i (01:00:22) ipick 0 50 
+\t (01:00:22) last pick:  30.0000 50.0000
+\i (01:00:27) ipick -30 
+\t (01:00:27) last pick:  0.0000 50.0000
+\i (01:00:29) pick 0 0 
+\t (01:00:29) last pick:  0.0000 0.0000
+\i (01:00:30) prepopup 4.7445 40.4157
+\i (01:00:31) done 
+\i (01:00:31) generaledit 
+\i (01:00:32) zoom out 1 
+\i (01:00:32) setwindow pcb
+\i (01:00:32) zoom out 18.5334 42.5140
+\t (01:00:32) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (01:00:32) trapsize 7494
+\i (01:00:33) zoom in 1 
+\i (01:00:33) setwindow pcb
+\i (01:00:33) zoom in 20.7816 42.9636
+\t (01:00:33) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (01:00:33) trapsize 3747
+\i (01:00:34) roam start
+\i (01:00:34) roam x -32
+\i (01:00:34) roam y 80
+\i (01:00:34) roam x -48
+\i (01:00:34) roam y 112
+\i (01:00:34) roam x -32
+\i (01:00:34) roam y 80
+\i (01:00:34) roam x -32
+\i (01:00:34) roam y 16
+\i (01:00:34) roam end
+\i (01:00:40) refresh symbol 
+\i (01:00:43) setwindow form.upd_element
+\i (01:00:43) FORM upd_element tree 'MULTISEL YES' Modules 
+\i (01:00:43) FORM upd_element tree  Modules 
+\i (01:00:44) FORM upd_element tree 'MULTISEL YES' 'Place replicate modules' 
+\i (01:00:44) FORM upd_element tree  'Place replicate modules' 
+\i (01:00:44) FORM upd_element tree 'MULTISEL YES' 'Place replicate modules' 
+\i (01:00:45) FORM upd_element tree 'MULTISEL YES' 'Package symbols' 
+\i (01:00:45) FORM upd_element tree  'Package symbols' 
+\i (01:00:46) FORM upd_element tree 'MULTISEL YES' 'Mechanical symbols' 
+\i (01:00:46) FORM upd_element tree  'Mechanical symbols' 
+\i (01:00:46) FORM upd_element tree 'MULTISEL YES' 'Shape and flash symbols' 
+\i (01:00:46) FORM upd_element tree  'Shape and flash symbols' 
+\i (01:00:47) FORM upd_element tree 'MULTISEL YES' 'Other symbols' 
+\i (01:00:47) FORM upd_element tree  'Other symbols' 
+\i (01:00:50) FORM upd_element refresh  
+\t (01:00:50) Starting Refresh Symbol...
+\t (01:00:52) Opening existing design...
+\t (01:00:52) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (01:00:52) setwindow pcb
+\i (01:00:52) trapsize 3747
+\i (01:01:04) setwindow form.upd_element
+\i (01:01:04) FORM upd_element padstacks YES 
+\i (01:01:07) FORM upd_element reset_drill_data YES 
+\i (01:01:19) FORM upd_element reset_symbol_text YES 
+\i (01:01:22) FORM upd_element refresh  
+\t (01:01:22) Starting Refresh Symbol...
+\t (01:01:23) Opening existing design...
+\t (01:01:24) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (01:01:24) setwindow pcb
+\i (01:01:24) trapsize 3747
+\i (01:01:27) setwindow form.upd_element
+\i (01:01:27) FORM upd_element tree 'MULTISEL YES' 'Place replicate modules' 
+\i (01:01:27) FORM upd_element tree  'Place replicate modules' 
+\i (01:01:27) FORM upd_element tree 'MULTISEL YES' Modules 
+\i (01:01:27) FORM upd_element tree  Modules 
+\i (01:01:29) FORM upd_element close  
+\i (01:01:29) setwindow pcb
+\i (01:01:29) generaledit 
+\i (01:01:34) quickplace 
+\i (01:01:37) setwindow form.quickplc
+\i (01:01:37) FORM quickplc place  
+\i (01:01:57) FORM quickplc place  
+\i (01:02:03) FORM quickplc done  
+\i (01:02:03) setwindow pcb
+\i (01:02:03) generaledit 
+\i (01:02:07) prepopup 59.1505 30.9733
+\i (01:02:08) pick grid 68.7428 39.7412
+\t (01:02:08) last pick:  68.7000 39.7000
+\i (01:02:09) zoom out 1 
+\i (01:02:09) setwindow pcb
+\i (01:02:09) zoom out 54.5043 34.0458
+\t (01:02:09) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (01:02:09) trapsize 7494
+\i (01:02:10) zoom in 1 
+\i (01:02:10) setwindow pcb
+\i (01:02:10) zoom in 3.6954 66.6445
+\t (01:02:10) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (01:02:10) trapsize 3747
+\i (01:02:10) roam start
+\i (01:02:10) roam x -32
+\i (01:02:10) roam y 64
+\i (01:02:11) roam y 128
+\i (01:02:11) roam y 32
+\i (01:02:11) roam y 80
+\i (01:02:11) roam y 32
+\i (01:02:11) roam y 16
+\i (01:02:11) roam y -32
+\i (01:02:11) roam y -144
+\i (01:02:11) roam y -64
+\i (01:02:11) roam y -80
+\i (01:02:11) roam y -32
+\i (01:02:12) roam y 32
+\i (01:02:12) roam y 16
+\i (01:02:12) roam y 32
+\i (01:02:12) roam y 16
+\i (01:02:13) roam y 16
+\i (01:02:13) roam y 16
+\i (01:02:13) roam y 32
+\i (01:02:13) roam y 16
+\i (01:02:13) roam y 16
+\i (01:02:14) roam y 32
+\i (01:02:14) roam y 32
+\i (01:02:14) roam y 16
+\i (01:02:14) roam y 16
+\i (01:02:14) roam y 16
+\i (01:02:15) roam y 16
+\i (01:02:15) roam y 16
+\i (01:02:15) roam y 16
+\i (01:02:15) roam y 16
+\i (01:02:15) roam y 16
+\i (01:02:15) roam y 16
+\i (01:02:15) roam y 16
+\i (01:02:16) roam y -32
+\i (01:02:16) roam y -32
+\i (01:02:16) roam y -48
+\i (01:02:16) roam y -16
+\i (01:02:16) roam y -16
+\i (01:02:16) roam y -48
+\i (01:02:16) roam y -80
+\i (01:02:16) roam y -48
+\i (01:02:17) roam end
+\i (01:02:18) roam start
+\i (01:02:18) roam y -16
+\i (01:02:18) roam y -96
+\i (01:02:18) roam end
+\i (01:02:20) roam start
+\i (01:02:20) roam y 80
+\i (01:02:20) roam y 80
+\i (01:02:20) roam y 128
+\i (01:02:20) roam y 48
+\i (01:02:20) roam y 80
+\i (01:02:21) roam y 48
+\i (01:02:21) roam x 16
+\i (01:02:21) roam x -16
+\i (01:02:22) roam end
+\i (01:02:30) save 
+\i (01:02:31) fillin yes 
+\i (01:02:31) generaledit 
+\i (01:05:32) exit 
+\t (01:05:32)     Journal end - Sun Feb 11 21:45:47 2018
