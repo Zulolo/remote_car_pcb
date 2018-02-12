@@ -3,9 +3,51 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  G:/Geek/Projects/remote_car/PCB/PCB_DRV8301/ti_foc_motor_8301.brd           |
-|                                                    Sun Feb 11 21:30:58 2018  |
+|                                                    Sun Feb 11 21:38:41 2018  |
 |------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ N_MOSFET_TO252-263_TO252AA_ZK_I
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
 |------------------------------------------------------------------------------|
+|  G:/Geek/Projects/remote_car/PCB/PCB_DRV8301/ti_foc_motor_8301.brd           |
+|                                                    Sun Feb 11 21:38:41 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ MOSFET1             N_MOSFET_TO252-263_TO252AA_ZK_I                 N_MOSFET_TO252-263_TO252AA_IRLR
+ MOSFET2             N_MOSFET_TO252-263_TO252AA_ZK_I                 N_MOSFET_TO252-263_TO252AA_IRLR
+ MOSFET3             N_MOSFET_TO252-263_TO252AA_ZK_I                 N_MOSFET_TO252-263_TO252AA_IRLR
+ MOSFET4             N_MOSFET_TO252-263_TO252AA_ZK_I                 N_MOSFET_TO252-263_TO252AA_IRLR
+ MOSFET5             N_MOSFET_TO252-263_TO252AA_ZK_I                 N_MOSFET_TO252-263_TO252AA_IRLR
+ MOSFET6             N_MOSFET_TO252-263_TO252AA_ZK_I                 N_MOSFET_TO252-263_TO252AA_IRLR
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  G:/Geek/Projects/remote_car/PCB/PCB_DRV8301/ti_foc_motor_8301.brd           |
+|                                                    Sun Feb 11 21:38:41 2018  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ MOSFET1.3                      PRIM_FILE      .\pstchip.dat
+ MOSFET2.3                      PRIM_FILE      .\pstchip.dat
+ MOSFET3.3                      PRIM_FILE      .\pstchip.dat
+ MOSFET4.3                      PRIM_FILE      .\pstchip.dat
+ MOSFET5.3                      PRIM_FILE      .\pstchip.dat
+ MOSFET6.3                      PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|       Comp definitions added:       1                                        |
+|       Components changed    :       6                                        |
+|       Slot property added   :       6                                        |
 |                                                                              |
-|   Total ECO changes reported:       0                                        |
+|   Total ECO changes reported:      13                                        |
 |------------------------------------------------------------------------------|

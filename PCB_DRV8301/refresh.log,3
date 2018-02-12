@@ -1,9 +1,9 @@
-Mon Feb 12 21:02:39 2018				Page     1
+Mon Feb 12 21:01:01 2018				Page     1
 
 
  
 Update Symbols/Modules Logfile
-	Mon Feb 12 21:02:39 2018
+	Mon Feb 12 21:01:01 2018
 
 ------ Module Refresh Messages ------
 
@@ -19,12 +19,12 @@ SUMMARY:    Updated 0 out of 0 modules
 (                                                                     )
 (    Drawing          : ti_foc_motor_8301.brd                         )
 (    Software Version : 17.2P019                                      )
-(    Date/Time        : Mon Feb 12 21:02:39 2018                      )
+(    Date/Time        : Mon Feb 12 21:01:02 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Mon Feb 12 21:02:39 2018				Page     1
+Mon Feb 12 21:01:02 2018				Page     1
 
 
 ------ Symbol Refresh Directives ------
@@ -69,27 +69,27 @@ PADPATH =  .
 
 ------ Symbol Refresh Messages ------
 
-'LQFP48_MCU'  symbol refreshed successfully.
-'SMD_C_0805'  symbol refreshed successfully.
-'SMD_C_1206'  symbol refreshed successfully.
-'SMD_D_0805'  symbol refreshed successfully.
-'SMD_L_0805'  symbol refreshed successfully.
-'SMD_R_2512'  symbol refreshed successfully.
-'SMD_R_0805'  symbol refreshed successfully.
-'TESTPAD_CIR_10'  symbol refreshed successfully.
-'SOD323'  symbol refreshed successfully.
-'CONN1X4'  symbol refreshed successfully.
-'HTSSOP56'  symbol refreshed successfully.
-'BANANA_SMALL'  symbol refreshed successfully.
-'TO252AA_ZK'  symbol refreshed successfully.
-'DO-214AA'  symbol refreshed successfully.
-'SMDR74'  symbol refreshed successfully.
 'C2X4_SMD_1P27'  symbol refreshed successfully.
-'SQR_16_FLASH'  symbol refreshed successfully.
-'HOLE_CIR_16_FLASH'  symbol refreshed successfully.
-'HOLE_CIR_100_FLASH'  symbol refreshed successfully.
-'AB00'  symbol refreshed successfully.
+'SMDR74'  symbol refreshed successfully.
+'DO-214AA'  symbol refreshed successfully.
+'TO252AA_ZK'  symbol refreshed successfully.
+'BANANA_SMALL'  symbol refreshed successfully.
+'HTSSOP56'  symbol refreshed successfully.
+'CONN1X4'  symbol refreshed successfully.
+'SOD323'  symbol refreshed successfully.
+'TESTPAD_CIR_10'  symbol refreshed successfully.
+'SMD_R_0805'  symbol refreshed successfully.
+'SMD_R_2512'  symbol refreshed successfully.
+'SMD_L_0805'  symbol refreshed successfully.
+'SMD_D_0805'  symbol refreshed successfully.
+'SMD_C_1206'  symbol refreshed successfully.
+'SMD_C_0805'  symbol refreshed successfully.
+'LQFP48_MCU'  symbol refreshed successfully.
 'HOLE_CIR_13_FLASH'  symbol refreshed successfully.
+'AB00'  symbol refreshed successfully.
+'HOLE_CIR_100_FLASH'  symbol refreshed successfully.
+'HOLE_CIR_16_FLASH'  symbol refreshed successfully.
+'SQR_16_FLASH'  symbol refreshed successfully.
 
 
 ----- Symbol Update Summary ----

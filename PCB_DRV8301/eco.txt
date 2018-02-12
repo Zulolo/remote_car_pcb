@@ -3,51 +3,67 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  G:/Geek/Projects/remote_car/PCB/PCB_DRV8301/ti_foc_motor_8301.brd           |
-|                                                    Sun Feb 11 21:38:41 2018  |
+|                                                    Sun Feb 11 23:04:31 2018  |
 |------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- N_MOSFET_TO252-263_TO252AA_ZK_I
+  3.3V         pins MOVED FROM this net (to net name listed on right)
+                                 J1.7            43.1000 17.5700
+                                                                            TCK
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TCK          pins MOVED FROM this net (to net name listed on right)
+                                 J1.4            46.9000 20.1100
+                                                                           TRST
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 J1.8            43.1000 16.3000
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRST         pins MOVED FROM this net (to net name listed on right)
+                                 J1.5            43.1000 20.1100
+                                                                           3.3V
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  G:/Geek/Projects/remote_car/PCB/PCB_DRV8301/ti_foc_motor_8301.brd           |
-|                                                    Sun Feb 11 21:38:41 2018  |
+|                                                    Sun Feb 11 23:04:31 2018  |
 |------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in design                 |
+| COMPONENT DEFINITION added to design                                         |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|    device type                                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- MOSFET1             N_MOSFET_TO252-263_TO252AA_ZK_I                 N_MOSFET_TO252-263_TO252AA_IRLR
- MOSFET2             N_MOSFET_TO252-263_TO252AA_ZK_I                 N_MOSFET_TO252-263_TO252AA_IRLR
- MOSFET3             N_MOSFET_TO252-263_TO252AA_ZK_I                 N_MOSFET_TO252-263_TO252AA_IRLR
- MOSFET4             N_MOSFET_TO252-263_TO252AA_ZK_I                 N_MOSFET_TO252-263_TO252AA_IRLR
- MOSFET5             N_MOSFET_TO252-263_TO252AA_ZK_I                 N_MOSFET_TO252-263_TO252AA_IRLR
- MOSFET6             N_MOSFET_TO252-263_TO252AA_ZK_I                 N_MOSFET_TO252-263_TO252AA_IRLR
+ C2X4_C2X4_SMD_1P27_JTAG
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
 |  G:/Geek/Projects/remote_car/PCB/PCB_DRV8301/ti_foc_motor_8301.brd           |
-|                                                    Sun Feb 11 21:38:41 2018  |
+|                                                    Sun Feb 11 23:04:31 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J1                  C2X4_C2X4_SMD_1P27_JTAG 46.9000 16.3000 C1X7_C1X7P127_JTAG
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  G:/Geek/Projects/remote_car/PCB/PCB_DRV8301/ti_foc_motor_8301.brd           |
+|                                                    Sun Feb 11 23:04:31 2018  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- MOSFET1.3                      PRIM_FILE      .\pstchip.dat
- MOSFET2.3                      PRIM_FILE      .\pstchip.dat
- MOSFET3.3                      PRIM_FILE      .\pstchip.dat
- MOSFET4.3                      PRIM_FILE      .\pstchip.dat
- MOSFET5.3                      PRIM_FILE      .\pstchip.dat
- MOSFET6.3                      PRIM_FILE      .\pstchip.dat
+ J1.8           46.9000 16.3000 PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
+|       Nets changed          :       4                                        |
 |       Comp definitions added:       1                                        |
-|       Components changed    :       6                                        |
-|       Slot property added   :       6                                        |
+|       Components changed    :       1                                        |
+|       Slot property added   :       1                                        |
 |                                                                              |
-|   Total ECO changes reported:      13                                        |
+|   Total ECO changes reported:       7                                        |
 |------------------------------------------------------------------------------|

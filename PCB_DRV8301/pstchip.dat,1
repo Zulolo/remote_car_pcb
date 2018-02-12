@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Feb-11-2018 at 21:12:12}
+{ Using PSTWRITER 17.2.0 d001Feb-11-2018 at 21:27:59}
 primitive 'CAP NP_SMD_C_0805_2.2NF';
   pin
     '1':
@@ -504,7 +504,7 @@ primitive 'TMS320F28027PT_LQFP48_MCU_TMS32';
     VALUE='TMS320F28027';
   end_body;
 end_primitive;
-primitive 'N_MOSFET_TO252-263_TO252AA_ZK_I';
+primitive 'N_MOSFET_TO252-263_TO252AA_IRLR';
   pin
     'G':
       PIN_NUMBER='(1)';
@@ -518,7 +518,7 @@ primitive 'N_MOSFET_TO252-263_TO252AA_ZK_I';
   end_pin;
   body
     PART_NAME='N_MOSFET_TO252-263';
-    JEDEC_TYPE='TO252AA_ZK';
+    JEDEC_TYPE='TO252AA';
     VALUE='IRLR7843-TO252AA';
   end_body;
 end_primitive;
