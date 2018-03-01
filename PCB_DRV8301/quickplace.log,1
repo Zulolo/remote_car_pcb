@@ -1,0 +1,53 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    QUICKPLACE LOG                                                   )
+(                                                                     )
+(    Drawing          : ti_foc_motor_8301.brd                         )
+(    Software Version : 17.2P028                                      )
+(    Date/Time        : Sun Feb 11 21:41:49 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+State: Placing on layer TOP
+
+         Placed symbol:  MOSFET1 / N_MOSFET_TO252-263_TO252AA_ZK_I / TO252AA_ZK at (3.9032 82.3032)
+         Placed symbol:  MOSFET2 / N_MOSFET_TO252-263_TO252AA_ZK_I / TO252AA_ZK at (11.7064 82.3032)
+         Placed symbol:  MOSFET3 / N_MOSFET_TO252-263_TO252AA_ZK_I / TO252AA_ZK at (19.5096 82.3032)
+         Placed symbol:  MOSFET4 / N_MOSFET_TO252-263_TO252AA_ZK_I / TO252AA_ZK at (51.4032 46.1968)
+         Placed symbol:  MOSFET5 / N_MOSFET_TO252-263_TO252AA_ZK_I / TO252AA_ZK at (51.4032 33.1936)
+         Placed symbol:  MOSFET6 / N_MOSFET_TO252-263_TO252AA_ZK_I / TO252AA_ZK at (51.4032 20.1904)
+         Placed symbol:  C16 / CAP NP_SMD_C_0805_15NF / SMD_C_0805 at (25.0892 75.6148)
+         Placed symbol:  C19 / CAP NP_SMD_C_0805_120PF / SMD_C_0805 at (27.7188 75.6148)
+         Placed symbol:  C28 / CAP NP_SMD_C_1206_2.2UF / SMD_C_1206 at (49.2796 10.2522)
+         Placed symbol:  C32 / CAP NP_SMD_C_1206_47UF / SMD_C_1206 at (49.2796 6.1140)
+         Placed symbol:  C37 / CAP NP_SMD_C_1206_47UF / SMD_C_1206 at (1.7796 89.5064)
+         Placed symbol:  D2 / DIODE SCHOTTKY_DO-214AA_CDBB210 / DO-214AA at (6.7092 88.2064)
+         Placed symbol:  L3 / INDUCTOR IRON_SMDR74_DR74-330-R / SMDR74 at (14.3624 90.2064)
+         Placed symbol:  R11 / RESISTOR_SMD_R_0805_1K / SMD_R_0805 at (20.4920 88.6180)
+         Placed symbol:  R16 / RESISTOR_SMD_R_0805_1K / SMD_R_0805 at (23.1216 88.6180)
+         Placed symbol:  R23 / RESISTOR_SMD_R_0805_1K / SMD_R_0805 at (25.7512 88.6180)
+         Placed symbol:  R26 / RESISTOR_SMD_R_0805_1K / SMD_R_0805 at (28.3808 88.6180)
+         Placed symbol:  R15 / RESISTOR_SMD_R_0805_10K / SMD_R_0805 at (56.9828 49.3968)
+         Placed symbol:  C30 / CAP NP_SMD_C_0805_1UF / SMD_C_0805 at (56.9828 46.2820)
+         Placed symbol:  C31 / CAP NP_SMD_C_0805_1UF / SMD_C_0805 at (56.9828 43.1672)
+         Placed symbol:  C33 / CAP NP_SMD_C_0805_1UF / SMD_C_0805 at (56.9828 40.0524)
+         Placed symbol:  C20 / CAP NP_SMD_C_0805_0.1UF / SMD_C_0805 at (56.9828 36.9376)
+         Placed symbol:  C29 / CAP NP_SMD_C_0805_0.1UF / SMD_C_0805 at (56.9828 33.8228)
+         Placed symbol:  C34 / CAP NP_SMD_C_0805_0.1UF / SMD_C_0805 at (56.9828 30.7080)
+         Placed symbol:  R24 / RESISTOR_SMD_R_0805_56R / SMD_R_0805 at (56.9828 27.5932)
+         Placed symbol:  R25 / RESISTOR_SMD_R_0805_56R / SMD_R_0805 at (56.9828 24.4784)
+
+
+Placed 26 of 26 applicable (26 total) symbols.
+
+-----------------------------------------------------------------------
+
+State: Placing on layer TOP
+
+
+
+Placed 0 of 0 applicable (0 total) symbols.
+
+-----------------------------------------------------------------------
+
