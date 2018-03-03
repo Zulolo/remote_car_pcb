@@ -1,0 +1,33 @@
+G04 ================== begin FILE IDENTIFICATION RECORD ==================*
+G04 Layout Name:  G:/Geek/Projects/remote_car/PCB/PCB_DRV8301/ti_foc_motor_8301.brd*
+G04 Film Name:    OUTLINE*
+G04 File Format:  Gerber RS274X*
+G04 File Origin:  Cadence Allegro 17.2-P019*
+G04 Origin Date:  Sat Mar 03 21:34:14 2018*
+G04 *
+G04 Layer:  BOARD GEOMETRY/OUTLINE*
+G04 *
+G04 Offset:    (0.0000 0.0000)*
+G04 Mirror:    No*
+G04 Mode:      Positive*
+G04 Rotation:  0*
+G04 FullContactRelief:  No*
+G04 UndefLineWidth:     0.2000*
+G04 ================== end FILE IDENTIFICATION RECORD ====================*
+%FSLAX25Y25*MOMM*%
+%IR0*IPPOS*OFA0.00000B0.00000*MIA0B0*SFA1.00000B1.00000*%
+%ADD10C,.2*%
+G75*
+%LPD*%
+G75*
+G54D10*
+G01X50000Y0D02*
+X3950000D01*
+G03X4000000Y50000I0J50000D01*
+G01Y4950000D01*
+G03X3950000Y5000000I-50000J0D01*
+G01X50000D01*
+G03X0Y4950000I0J-50000D01*
+G01Y50000D01*
+G03X50000Y0I50000J0D01*
+M02*
