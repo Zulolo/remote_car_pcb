@@ -1,0 +1,48 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Auto Silkscreen Log File                                         )
+(                                                                     )
+(    Drawing          : ti_foc_motor_8301.brd                         )
+(    Software Version : 17.2P028                                      )
+(    Date/Time        : Sat Mar 03 15:23:07 2018                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Generating Auto Silkscreen for both sides of the board.
+
+Copying all elements.
+
+Element to Pad clearance is 0.0000
+Max Text displacement is 2.5400
+Min Line Length is 0.0000
+Allowing 0, 90, 180 and 270 degree text rotations.
+Text Allowed Under Components.
+Subclass Selections:
+ Board Geometry       : Silkscreen
+ Component Value      : Silkscreen
+ Device Type          : Silkscreen
+ Package Geometry     : Silkscreen
+ Reference Designator : Silkscreen
+ Tolerance            : Silkscreen
+ User Part Number     : Silkscreen
+
+
+     ----- Top Silkscreen -----
+
+Text string 'R7' is not at a suitable location
+(location: 11.9000, 3.3000)
+Text string 'C37' is not at a suitable location
+(location: 10.1000, 2.7000)
+
+     ----- Bottom Silkscreen -----
+
+Text string 'R16' is not at a suitable location
+(location: 13.1000, 3.3000)
+Text string 'L2' is not at a suitable location
+(location: 17.4000, 3.4000)
+
+Total Failures: 4
+
+Log End
+

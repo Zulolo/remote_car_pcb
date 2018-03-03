@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : ti_foc_motor_8301.brd                         )
 (    Software Version : 17.2P028                                      )
-(    Date/Time        : Thu Mar 01 22:53:43 2018                      )
+(    Date/Time        : Sat Mar 03 15:17:05 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  2
+ ..... Total number of DRC errors  54
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************
