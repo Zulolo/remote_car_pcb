@@ -2,64 +2,395 @@
 |                                 ECO   REPORT                                 |
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
-|  G:/Geek/Projects/remote_car/PCB/ti_foc_motor.brd                            |
-|                                                    Sat Jan 06 17:07:39 2018  |
+|  G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/ti_foc_motor.brd                |
+|                                                    Sat Mar 17 23:07:35 2018  |
 |------------------------------------------------------------------------------|
 | NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
   3.3V         pins MOVED FROM this net (to net name listed on right)
-                                 J3.2            29.9600  2.0000
-                                                                            GND
+                                 C27.2           27.0000  5.3000
+                                                                           PVDD
+                                 R2.2                           
+                                                                            TDO
+                                 R4.2            43.8000 19.4000
+                                                                       N3828127
+                                 R8.1            24.1000 34.9000
+                                                                         N01800
+                                 R9.1            36.5000 72.5000
+                                                                           SH_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GH_B         pins MOVED FROM this net (to net name listed on right)
+                                 MOSFET3.1       30.3000 60.7000
+                                                                           GL_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GL_A         pins MOVED FROM this net (to net name listed on right)
+                                 MOSFET2.1       47.3000 50.8000
+                                                                           GH_B
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
   GND          pins MOVED FROM this net (to net name listed on right)
-                                 J3.1            32.5000  2.0000
-                                                                           3.3V
+                                 C11.1           38.0000 39.7000
+                                                                         N04769
+                                 C12.1           36.2000 42.2000
+                                                                         N04796
+                                 C21.1           20.6000 35.7000
+                                                                         N02208
+                                 C22.2                          
+                                                                           SL_B
+                                 R3.2            31.2000  8.5000
+                                                                           TRST
+                                 R5.1            43.7000 28.3000
+                                                                           PVDD
+                                 R6.2            43.8000 19.4000
+                                                                         N05122
+                                 R15.2                          
+                                                                         N02325
+                                 R16.2           16.2000 37.7000
+                                                                         N02329
  - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  MCU_IIC_SCK  pins ADDED TO this new net
-                                 J3.3            27.4200  2.0000
-                                 MCU1.36         32.3000 22.7500
- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
-  MCU_IIC_SDA  pins ADDED TO this new net
-                                 J3.4            24.8800  2.0000
-                                 MCU1.31         32.3000 20.2500
+  GPIO34       pins MOVED FROM this net (to net name listed on right)
+                                 MCU1.19         28.2500 15.7000
+                                                                       N3828127
+                                 R1.1            27.6000  8.5000
+                                                                      MCU_PWRGD
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
-|  G:/Geek/Projects/remote_car/PCB/ti_foc_motor.brd                            |
-|                                                    Sat Jan 06 17:07:39 2018  |
+|  G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/ti_foc_motor.brd                |
+|                                                    Sat Mar 17 23:07:35 2018  |
 |------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to board drawing                                  |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- C1X4GEN_CONN1X4_CONN1X4
+                                 R3.1            29.3000  8.5000
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MCU_ISEN_A   pins MOVED FROM this net (to net name listed on right)
+                                 R17.1           18.4000 34.8000
+                                                                     MCU_ISEN_C
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MCU_ISEN_B   pins MOVED FROM this net (to net name listed on right)
+                                 R18.1            2.5000 72.5000
+                                                                           SH_C
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MCU_ISEN_C   pins MOVED FROM this net (to net name listed on right)
+                                 R19.1           17.9000  7.5000
+                                                                  MCU_VSEN_PVDD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MCU_NFAULT   pins MOVED FROM this net (to net name listed on right)
+                                 R9.2            36.5000 70.6000
+                                                                     MCU_VSEN_A
+                                 R10.2           19.5000 70.6000
+                                                                     MCU_VSEN_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MCU_PWRGD    pins MOVED FROM this net (to net name listed on right)
+                                 R2.1                           
+                                                                           3.3V
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MCU_VSEN_A   pins MOVED FROM this net (to net name listed on right)
+                                 C19.2           20.4000 21.4000
+                                                                     MCU_VSEN_B
+                                 R11.2           36.5000 66.1000
+                                                                            GND
+                                 R13.1           37.9000 50.9000
+                                                                           SL_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MCU_VSEN_B   pins MOVED FROM this net (to net name listed on right)
+                                 C20.2           17.8000 21.4000
+                                                                           SL_A
+                                 R12.2           19.5000 66.1000
+                                                                            GND
+                                 R14.1           20.9000 50.9000
+                                                                           SL_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MCU_VSEN_C   pins MOVED FROM this net (to net name listed on right)
+                                 R20.2                          
+                                                                            GND
+                                 R22.1            2.5000 68.0000
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   3  |
 |------------------------------------------------------------------------------|
-|  G:/Geek/Projects/remote_car/PCB/ti_foc_motor.brd                            |
-|                                                    Sat Jan 06 17:07:39 2018  |
+|  G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/ti_foc_motor.brd                |
+|                                                    Sat Mar 17 23:07:35 2018  |
 |------------------------------------------------------------------------------|
-| COMPONENTS CHANGED from one device type to another in board drawing          |
+| NET CHANGES                                                                  |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J3                  C1X4GEN_CONN1X4_CONN1X4 32.5000  2.0000 C1X2_C1X2NEW_C1X2
+                                                                  MCU_VSEN_PVDD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  MCU_VSEN_PVDD pins MOVED FROM this net (to net name listed on right)
+                                 C29.2           16.8000 17.2000
+                                                                     MCU_VSEN_C
+                                 R21.1            3.9000 50.9000
+                                                                           SL_C
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01800       pins MOVED FROM this net (to net name listed on right)
+                                 R10.1           19.5000 72.5000
+                                                                           SH_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02208       pins MOVED FROM this net (to net name listed on right)
+                                 C22.1                          
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02325       pins MOVED FROM this net (to net name listed on right)
+                                 R17.2           18.4000 36.7000
+                                                                         N02333
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02329       pins MOVED FROM this net (to net name listed on right)
+                                 R18.2            2.5000 70.6000
+                                                                     MCU_VSEN_C
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02333       pins MOVED FROM this net (to net name listed on right)
+                                 R19.2           16.0000  7.5000
+                                                                           PVDD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N03912       pins MOVED FROM this net (to net name listed on right)
+                                 C15.1           22.0000 59.4000
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04769       pins MOVED FROM this net (to net name listed on right)
+                                 C13.1           35.5000 42.0000
+                                                                         N03912
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04773       pins MOVED FROM this net (to net name listed on right)
+                                 C13.2           37.4000 42.0000
+                                                                           PVDD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04796       pins MOVED FROM this net (to net name listed on right)
+                                 C14.1           39.0000 59.4000
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04800       pins MOVED FROM this net (to net name listed on right)
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   4  |
 |------------------------------------------------------------------------------|
-|  G:/Geek/Projects/remote_car/PCB/ti_foc_motor.brd                            |
-|                                                    Sat Jan 06 17:07:39 2018  |
+|  G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/ti_foc_motor.brd                |
+|                                                    Sat Mar 17 23:07:35 2018  |
 |------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to board drawing                                       |
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 C14.2           39.0000 57.5000
+                                                                           PVDD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04838       pins MOVED FROM this net (to net name listed on right)
+                                 R7.2            26.0000 32.6000
+                                                                     MCU_NFAULT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N05122       pins MOVED FROM this net (to net name listed on right)
+                                 C18.2                          
+                                                                     MCU_VSEN_A
+                                 R8.2            26.0000 34.9000
+                                                                     MCU_NFAULT
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N3770874     pins DELETED FROM this net (all pins deleted)
+                                 MCU1.46         26.2500 24.3000
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N3770878     pins DELETED FROM this net (all pins deleted)
+                                 MCU1.45         26.7500 24.3000
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PVDD         pins MOVED FROM this net (to net name listed on right)
+                                 C11.2           39.9000 39.7000
+                                                                         N04773
+                                 C12.2           38.1000 42.2000
+                                                                         N04800
+                                 C25.2                          
+                                                                           3.3V
+                                 C28.2           16.0000  5.1000
+                                                                  MCU_VSEN_PVDD
+                                 MOSFET3.4       28.0000 53.0000
+                                                                           SH_A
+                                 R7.1            24.1000 32.6000
+                                                                           3.3V
+                                 R21.2            3.9000 57.3000
+                                                                            GND
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SH_A         pins MOVED FROM this net (to net name listed on right)
+                                 MOSFET2.4       45.0000 58.5000
+                                                                           PVDD
+                                 R11.1           36.5000 68.0000
+                                                                     MCU_VSEN_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SH_B         pins MOVED FROM this net (to net name listed on right)
+                                 MOSFET3.3       25.7000 60.6000
+                                                                           SL_A
+                                 R12.1           19.5000 68.0000
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/ti_foc_motor.brd                |
+|                                                    Sat Mar 17 23:07:35 2018  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |    pin_id     |   x   |   y   |   to  net    |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                                                     MCU_VSEN_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SH_C         pins MOVED FROM this net (to net name listed on right)
+                                 R20.1                          
+                                                                     MCU_VSEN_C
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SL_A         pins MOVED FROM this net (to net name listed on right)
+                                 C21.2           20.6000 33.8000
+                                                                            GND
+                                 MOSFET2.3       42.7000 50.9000
+                                                                           SH_B
+                                 R15.1                          
+                                                                     MCU_ISEN_A
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SL_B         pins MOVED FROM this net (to net name listed on right)
+                                 C23.2           25.7000 47.8000
+                                                                           SL_C
+                                 R16.1           16.2000 35.8000
+                                                                     MCU_ISEN_B
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SL_C         pins MOVED FROM this net (to net name listed on right)
+                                 C24.2            5.0000 57.5000
+                                                                           PVDD
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TCK          pins MOVED FROM this net (to net name listed on right)
+                                 J1.4            46.9000 20.1100
+                                                                           TRST
+                - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+               pins ADDED TO this existing net (pins not previously on any net)
+                                 J1.7            43.1000 17.5700
+                                 J1.8            43.1000 16.3000
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TDO          pins MOVED FROM this net (to net name listed on right)
+                                 R4.1            43.8000 21.3000
+                                                                           3.3V
+                                 R6.1            43.8000 21.3000
+                                                                           3.3V
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TRST         pins MOVED FROM this net (to net name listed on right)
+                                 J1.5            43.1000 20.1100
+                                                                           3.3V
+                                 R5.2            43.7000 26.4000
+                                                                         N04838
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/ti_foc_motor.brd                |
+|                                                    Sat Mar 17 23:07:35 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ BANANA_BANANA_SMALL_MOTOR_A
+ BANANA_BANANA_SMALL_MOTOR_B
+ BANANA_BANANA_SMALL_MOTOR_C
+ BANANA_BANANA_SMALL_POWER_GND
+ BANANA_BANANA_SMALL_POWER_P
+ C2X4_C2X4_SMD_1P27_JTAG
+ RESISTOR_SMD_R_0805_1K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/ti_foc_motor.brd                |
+|                                                    Sat Mar 17 23:07:35 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENTS DELETED from design                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type      |   x   |   y                        |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C20                 CAP NP_SMD_C_0805_1NF 39.8000 47.6000
+ C24                 CAP NP_SMD_C_0805_1NF  6.8000 47.4000
+ C30                 CAP NP_SMD_C_0805_0.1UF 15.2000 23.3000
+ R1                  RESISTOR_SMD_R_0805_2.2K 23.1000 30.0000
+ R5                  RESISTOR_SMD_R_0805_100R 39.9000 37.2000
+ R6                  RESISTOR_SMD_R_0805_0R 39.9000 32.8000
+ R19                 RESISTOR_SMD_R_0805_56R 14.0000 36.7000
+ R24                 RESISTOR_SMD_R_0805_5K 20.6000  7.5000
+ T1                  TESTPAD_SMALL_SMD_TESTPAD_SMD_D 24.8000 28.3000
+ T2                  TESTPAD_SMALL_SMD_TESTPAD_SMD_1 27.9000 28.3000
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/ti_foc_motor.brd                |
+|                                                    Sat Mar 17 23:07:35 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C18                 CAP NP_SMD_C_0805_0.1UF 
+ C22                 CAP NP_SMD_C_0805_1NF 
+ C25                 CAP NP_SMD_C_0805_10UF 
+ R2                  RESISTOR_SMD_R_0805_1K 
+ R15                 RESISTOR_SMD_R_0805_56R 
+ R20                 RESISTOR_SMD_R_0805_5K 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/ti_foc_motor.brd                |
+|                                                    Sat Mar 17 23:07:35 2018  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C20                 CAP NP_SMD_C_0805_1NF 17.8000 23.3000 CAP NP_SMD_C_0805_0.1UF
+ C27                 CAP NP_SMD_C_0805_0.1UF 28.9000  5.3000 CAP NP_SMD_C_0805_10UF
+ J1                  C2X4_C2X4_SMD_1P27_JTAG 46.9000 16.3000 C1X6GEN_CONNECTER1X6_JTAG
+ J2                  BANANA_BANANA_SMALL_MOTOR_A 44.0000 69.0000 BANANA_BANANA_MOTOR_A
+ J4                  BANANA_BANANA_SMALL_MOTOR_B 27.0000 69.0000 BANANA_BANANA_MOTOR_B
+ J5                  BANANA_BANANA_SMALL_MOTOR_C 10.0000 69.0000 BANANA_BANANA_MOTOR_C
+ J6                  BANANA_BANANA_SMALL_POWER_P  6.0000  6.0000 BANANA_BANANA_POWER_P
+ J7                  BANANA_BANANA_SMALL_POWER_GND 44.0000  6.0000 BANANA_BANANA_POWER_GND
+ R1                  RESISTOR_SMD_R_0805_2.2K 27.6000  8.5000 RESISTOR_SMD_R_0805_820R
+ R4                  RESISTOR_SMD_R_0805_1K 43.8000 21.3000 RESISTOR_SMD_R_0805_820R
+ R5                  RESISTOR_SMD_R_0805_100R 43.7000 28.3000 RESISTOR_SMD_R_0805_2.2K
+ R6                  RESISTOR_SMD_R_0805_0R 43.8000 21.3000 RESISTOR_SMD_R_0805_2.2K
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/ti_foc_motor.brd                |
+|                                                    Sat Mar 17 23:07:35 2018  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- J3.4           32.5000  2.0000 PRIM_FILE      .\pstchip.dat
+ C18.2                          PRIM_FILE      .\pstchip.dat
+ C20.2          17.8000 23.3000 PRIM_FILE      .\pstchip.dat
+ C22.2                          PRIM_FILE      .\pstchip.dat
+ C25.2                          PRIM_FILE      .\pstchip.dat
+ C27.2          28.9000  5.3000 PRIM_FILE      .\pstchip.dat
+ J1.8           46.9000 16.3000 PRIM_FILE      .\pstchip.dat
+ J2.1           44.0000 69.0000 PRIM_FILE      .\pstchip.dat
+ J4.1           27.0000 69.0000 PRIM_FILE      .\pstchip.dat
+ J5.1           10.0000 69.0000 PRIM_FILE      .\pstchip.dat
+ J6.1            6.0000  6.0000 PRIM_FILE      .\pstchip.dat
+ J7.1           44.0000  6.0000 PRIM_FILE      .\pstchip.dat
+ R1.2           27.6000  8.5000 PRIM_FILE      .\pstchip.dat
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R4.2           43.8000 21.3000 PRIM_FILE      .\pstchip.dat
+ R5.2           43.7000 28.3000 PRIM_FILE      .\pstchip.dat
+ R6.2           43.8000 21.3000 PRIM_FILE      .\pstchip.dat
+ R15.2                          PRIM_FILE      .\pstchip.dat
+ R20.2                          PRIM_FILE      .\pstchip.dat
 |------------------------------------------------------------------------------|
-|   total ECO changes reported  9                                              |
+|       Nets changed          :      75                                        |
+|       Comp definitions added:       7                                        |
+|       Components added      :       6                                        |
+|       Components deleted    :      10                                        |
+|       Components changed    :      12                                        |
+|       Slot property added   :      18                                        |
+|                                                                              |
+|   Total ECO changes reported:     128                                        |
 |------------------------------------------------------------------------------|

@@ -3,41 +3,42 @@
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
 (    Drawing          : ti_foc_motor.brd                              )
-(    Software Version : 16.6S008                                      )
-(    Date/Time        : Sat Jan 06 17:07:38 2018                      )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Sat Mar 17 23:07:35 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
------- Directives ------
+------ Directives ------------
 
-RIPUP_ETCH FALSE;
-RIPUP_DELETE_FIRST_SEGMENT FALSE;
-RIPUP_RETAIN_BONDWIRE FALSE;
-RIPUP_SYMBOLS ALWAYS;
-Missing symbol has error FALSE;
-SCHEMATIC_DIRECTORY 'G:/Geek/Projects/remote_car/PCB';
-BOARD_DIRECTORY '';
-OLD_BOARD_NAME 'G:/Geek/Projects/remote_car/PCB/ti_foc_motor.brd';
-NEW_BOARD_NAME 'G:/Geek/Projects/remote_car/PCB/ti_foc_motor.brd';
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'G:/Geek/Projects/remote_car/PCB/PCB_DRV8305'
+Design Directory:            '.'
+Old design name:             'G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/ti_foc_motor.brd'
+New design name:             'G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/ti_foc_motor.brd'
 
-CmdLine: netrev -$ -i G:/Geek/Projects/remote_car/PCB -y 1 G:/Geek/Projects/remote_car/PCB/#Taaaaab02604.tmp
+CmdLine: netrev -$ -i G:/Geek/Projects/remote_car/PCB/PCB_DRV8305 -y 1 -q netrev_constraint_report.xml G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/#Taaaaah05840.tmp
 
 ------ Preparing to read pst files ------
 
-Starting to read G:/Geek/Projects/remote_car/PCB/pstchip.dat 
-   Finished reading G:/Geek/Projects/remote_car/PCB/pstchip.dat (00:00:00.03)
-Starting to read G:/Geek/Projects/remote_car/PCB/pstxprt.dat 
-   Finished reading G:/Geek/Projects/remote_car/PCB/pstxprt.dat (00:00:00.00)
-Starting to read G:/Geek/Projects/remote_car/PCB/pstxnet.dat 
-   Finished reading G:/Geek/Projects/remote_car/PCB/pstxnet.dat (00:00:00.00)
+Starting to read G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/pstchip.dat 
+   Finished reading G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/pstchip.dat (00:00:00.04)
+Starting to read G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/pstxprt.dat 
+   Finished reading G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/pstxprt.dat (00:00:00.00)
+Starting to read G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/pstxnet.dat 
+   Finished reading G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
 
 ------ Library Paths ------
 MODULEPATH =  . 
-           D:/Cadence/SPB_16.6/share/local/pcb/modules 
+           D:/Cadence/SPB_17.2/share/local/pcb/modules 
            G:/Cadence/Package_Symbol/ 
            G:/Cadence/PADs/ 
 
@@ -45,9 +46,9 @@ PSMPATH =  .
            symbols 
            .. 
            ../symbols 
-           D:/Cadence/SPB_16.6/share/local/pcb/symbols 
-           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
-           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           D:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           D:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
            G:/Cadence/Package_Symbol/ 
            G:/Cadence/PADs/ 
            G:/CADENCE/Shape/ 
@@ -56,9 +57,9 @@ PADPATH =  .
            symbols 
            .. 
            ../symbols 
-           D:/Cadence/SPB_16.6/share/local/pcb/padstacks 
-           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
-           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           D:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           D:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
            G:/Cadence/PADs/ 
            G:/Cadence/Package_Symbol/ 
 
@@ -66,9 +67,9 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Jan 6 17:07:38 2018
+netrev run on Mar 17 23:07:35 2018
    DESIGN NAME : 'MOTOR_TI_FOC'
-   PACKAGING ON Mar 11 2013 16:26:28
+   PACKAGING ON Mar  2 2016 00:37:24
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -91,6 +92,6 @@ netrev run on Jan 6 17:07:38 2018
  No oversight detected
  No warning detected
 
-cpu time      0:00:44
+cpu time      0:01:23
 elapsed time  0:00:01
 

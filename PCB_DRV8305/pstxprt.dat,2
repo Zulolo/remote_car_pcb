@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 16.6.0 d001Jan-06-2018 at 14:41:03 }
+{ Using PSTWRITER 16.6.0 d001Jan-06-2018 at 17:07:30 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='MOTOR_TI_FOC';
@@ -368,12 +368,12 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
- J3 'C1X2_C1X2NEW_C1X2':;
+ J3 'C1X4GEN_CONN1X4_CONN1X4':;
 
 SECTION_NUMBER 1
- '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3752473@CORE.C1X2.NORMAL(CHIPS)':
- C_PATH='@motor_ti_foc.schematic1(sch_1):ins3752473@core.\c1x2.normal\(chips)',
- P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3752473@core.\c1x2.normal\(chips)',
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3790718@CORE.C1X4GEN.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3790718@core.\c1x4gen.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3790718@core.\c1x4gen.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 

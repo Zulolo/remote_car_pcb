@@ -1,9 +1,9 @@
-Mon Jan 08 20:34:22 2018				Page     1
+Sat Mar 17 23:08:12 2018				Page     1
 
 
  
 Update Symbols/Modules Logfile
-	Mon Jan 08 20:34:22 2018
+	Sat Mar 17 23:08:12 2018
 
 ------ Module Refresh Messages ------
 
@@ -18,29 +18,30 @@ SUMMARY:    Updated 0 out of 0 modules
 (    Refresh Symbol                                                   )
 (                                                                     )
 (    Drawing          : ti_foc_motor.brd                              )
-(    Software Version : 16.6S008                                      )
-(    Date/Time        : Mon Jan 08 20:34:22 2018                      )
+(    Software Version : 17.2P019                                      )
+(    Date/Time        : Sat Mar 17 23:08:13 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
 
-Mon Jan 08 20:34:22 2018				Page     1
+Sat Mar 17 23:08:13 2018				Page     1
 
 
 ------ Symbol Refresh Directives ------
 
-Input design = 'G:/Geek/Projects/remote_car/PCB/ti_foc_motor.brd'
+Input design  = 'G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/ti_foc_motor.brd'
 Output design = ''
-Update mechanical symbols = 'NO'
-Update format symbols = 'NO'
-Update package symbols = 'NO'
-Update shape/flash symbols = 'NO'
-Update symbol padstacks = 'YES'
-Reset symbol text and size locations = 'NO'
-Reset Pin Escapes (fanouts) = 'NO'
-Ripup Etch = 'NO'
-Reset custom drill data = 'NO'
-Symbol list file = 'C:/Users/Zulolo/AppData/Local/Temp/#Taaaaab10680.tmp'
+
+Update mechanical symbols              = 'NO'
+Update format symbols                  = 'NO'
+Update package symbols                 = 'YES'
+Update shape/flash symbols             = 'YES'
+Update symbol padstacks                = 'YES'
+Preserve padstacks replaced on pins    = 'NO'
+Reset symbol text and size locations   = 'YES'
+Reset Pin Escapes (fanouts)            = 'NO'
+Ripup Etch                             = 'NO'
+Reset custom drill data                = 'YES'
 
 
 ------ Library Paths ------
@@ -48,9 +49,9 @@ PSMPATH =  .
            symbols 
            .. 
            ../symbols 
-           D:/Cadence/SPB_16.6/share/local/pcb/symbols 
-           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
-           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           D:/Cadence/SPB_17.2/share/local/pcb/symbols 
+           D:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
            G:/Cadence/Package_Symbol/ 
            G:/Cadence/PADs/ 
            G:/CADENCE/Shape/ 
@@ -59,25 +60,55 @@ PADPATH =  .
            symbols 
            .. 
            ../symbols 
-           D:/Cadence/SPB_16.6/share/local/pcb/padstacks 
-           D:/Cadence/SPB_16.6/share/pcb/pcb_lib/symbols 
-           D:/Cadence/SPB_16.6/share/pcb/allegrolib/symbols 
+           D:/Cadence/SPB_17.2/share/local/pcb/padstacks 
+           D:/Cadence/SPB_17.2/share/pcb/pcb_lib/symbols 
+           D:/Cadence/SPB_17.2/share/pcb/allegrolib/symbols 
            G:/Cadence/PADs/ 
            G:/Cadence/Package_Symbol/ 
 
 
 ------ Symbol Refresh Messages ------
 
-'BANANA'  symbol refreshed successfully.
+'C2X4_SMD_1P27'  symbol refreshed successfully.
+'BANANA_SMALL'  symbol refreshed successfully.
+'CONN1X4'  symbol refreshed successfully.
+'SOD323'  symbol refreshed successfully.
+'TESTPAD_CIR_10'  symbol refreshed successfully.
+'SMD_R_0805'  symbol refreshed successfully.
+'SMD_R_2512'  symbol refreshed successfully.
+'SMD_L_0805'  symbol refreshed successfully.
+'SMD_D_0805'  symbol refreshed successfully.
+'SMD_C_1206'  symbol refreshed successfully.
+'SMD_C_0805'  symbol refreshed successfully.
+'TO252AA_ZK'  symbol refreshed successfully.
+'LQFP48_MCU'  symbol refreshed successfully.
+'HTQFP48'  symbol refreshed successfully.
+'AB00'  symbol refreshed successfully.
+'HOLE_CIR_100_FLASH'  symbol refreshed successfully.
+'HOLE_CIR_16_FLASH'  symbol refreshed successfully.
+'SQR_16_FLASH'  symbol refreshed successfully.
 
 
 ------ Pad Stack Refresh Messages ------
 
-'DIP_CIR_60_100'  pad stack refreshed successfully.
+'SMD_21X8_REC'  pad stack refreshed successfully.
+'SMD_12X2_5_REC'  pad stack refreshed successfully.
+'SMD_14X8_REC'  pad stack refreshed successfully.
+'SMD_15X8_REC'  pad stack refreshed successfully.
+'SMD_15X9_REC'  pad stack refreshed successfully.
+'SMD_18X9_REC'  pad stack refreshed successfully.
+'SMD_10X17_REC'  pad stack refreshed successfully.
+'SMD_15X22_REC'  pad stack refreshed successfully.
+'SMD_70X70_REC'  pad stack refreshed successfully.
+'DIP_CIR_10_18'  pad stack refreshed successfully.
+'SMD_36X16_REC'  pad stack refreshed successfully.
+'DIP_CIR_25_36'  pad stack refreshed successfully.
+'SMD_5X7_REC'  pad stack refreshed successfully.
+'DIP_SQ_10_18'  pad stack refreshed successfully.
 
 
 ----- Symbol Update Summary ----
 
-Updated symbols: 1 out 1
+Updated symbols: 18 out 18
     Design updated.
 

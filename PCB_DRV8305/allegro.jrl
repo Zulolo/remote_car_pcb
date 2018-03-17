@@ -1,136 +1,187 @@
-\t (00:00:00) allegro 16.6 S008 (v16-6-112AD) Windows 32
-\t (00:00:00)     Journal start - Mon Jan 08 21:56:30 2018
-\t (00:00:00)         Host=ZULOLO-PC User=Zulolo Pid=10516 CPUs=8
-\t (00:00:00) 
-\t (00:00:02) Opening existing design...
-\d (00:00:02) Database opened: G:/Geek/Projects/remote_car/PCB/ti_foc_motor.brd
-\i (00:00:02) trapsize 1172
-\i (00:00:02) trapsize 1151
-\i (00:00:02) trapsize 1176
-\i (00:00:02) trapsize 1176
-\i (00:00:03) generaledit 
-\i (00:00:03) zoom out 1 
-\i (00:00:03) setwindow pcb
-\i (00:00:03) zoom out 15.1008 8.0911
-\t (00:00:03) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
-\i (00:00:03) trapsize 2352
-\i (00:00:04) zoom in 1 
-\i (00:00:04) setwindow pcb
-\i (00:00:04) zoom in 31.7781 17.8999
-\i (00:00:04) trapsize 1176
-\i (00:00:04) zoom in 1 
-\i (00:00:04) setwindow pcb
-\i (00:00:04) zoom in 31.7782 17.8764
-\i (00:00:04) trapsize 588
-\i (00:00:04) zoom in 1 
-\i (00:00:04) setwindow pcb
-\i (00:00:04) zoom in 31.7782 17.8529
-\i (00:00:04) trapsize 294
-\i (00:00:05) zoom out 1 
-\i (00:00:05) setwindow pcb
-\i (00:00:05) zoom out 31.7782 17.8529
-\i (00:00:05) trapsize 588
-\i (00:00:05) zoom out 1 
-\i (00:00:05) setwindow pcb
-\i (00:00:05) zoom out 31.7783 17.8530
-\i (00:00:05) trapsize 1176
-\i (00:00:05) zoom out 1 
-\i (00:00:05) setwindow pcb
-\i (00:00:05) zoom out 31.7783 17.8530
-\i (00:00:05) trapsize 2352
-\i (00:00:05) zoom out 1 
-\i (00:00:05) setwindow pcb
-\i (00:00:05) zoom out 31.7782 17.8530
-\i (00:00:05) trapsize 4704
-\i (00:00:11) nctape_full 
-\i (00:00:14) setwindow form.nc_drill
-\i (00:00:14) FORM nc_drill parameters  
-\i (00:00:23) setwindow form.nc_parameters
-\i (00:00:23) FORM nc_parameters done  
-\i (00:00:35) setwindow form.nc_drill
-\i (00:00:35) FORM nc_drill execute  
-\t (00:00:35) Starting NC Drill...
-\i (00:00:39) FORM nc_drill close  
-\i (00:00:39) setwindow pcb
-\i (00:00:39) generaledit 
-\i (00:00:43) ncdrill legend 
-\i (00:00:46) setwindow form.nc_drilllegend
-\i (00:00:46) FORM nc_drilllegend done  
-   (00:00:46) Loading cmds.cxt 
-   (00:00:46) Loading mfg.cxt 
-   (00:00:46) Loading axlcore.cxt 
-\i (00:00:47) setwindow pcb
-\i (00:00:47) zoom out 1 
-\i (00:00:47) setwindow pcb
-\i (00:00:47) zoom out 66.6854 50.0315
-\t (00:00:47) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
-\i (00:00:47) trapsize 9409
-\i (00:00:50) pick grid -0.4946 126.5263
-\t (00:00:50) last pick:  -0.5000  126.5000
-\t (00:00:50) NC Drill Legend generation successful
-\i (00:00:50) done 
-\i (00:00:50) generaledit 
-\i (00:00:51) prepopup 68.0026 162.0922
-\i (00:00:53) save 
-\i (00:00:54) fillin yes 
-\i (00:00:55) generaledit 
-\i (00:01:01) artwork 
-\i (00:01:03) setwindow form.film_control
-\i (00:01:03) FORM film_control select_all  
-\i (00:01:03) FORM film_control create  
-\t (00:01:03) Checking db records
-\t (00:01:03)     checking for orphans...
-\t (00:01:03)     Checked  21 percent
-\t (00:01:03)     Checked  43 percent
-\t (00:01:03)     Checked  64 percent
-\t (00:01:03)     Checked  86 percent
-\t (00:01:03)     Checked 100 percent
-\w (00:01:04) Run batch DRC to correctly regenerate DRC errs.
-
-\t (00:01:04) Done dbdoctor.
-\t (00:01:04) Starting Create artwork films...
-\w (00:01:04) WARNING(SPMHGE-269): artwork had warnings, use Viewlog to review the log file.
-\w (00:01:05) Artwork generated with warnings.
-\i (00:01:13) setwindow text
-\i (00:01:13) close 
-\i (00:01:14) setwindow form.film_control
-\i (00:01:14) FORM film_control ok  
-\i (00:01:14) setwindow pcb
-\i (00:01:14) generaledit 
-\i (00:01:18) status 
-\i (00:01:18) generaledit 
-\i (00:01:19) setwindow form.status
-\i (00:01:19) FORM status drc_update  
-\t (00:01:19) Running DRC, please wait...
-\t (00:01:19) Performing DRC...
-\t (00:01:19) Multithreaded DRC update (8 threads).
-\t (00:01:19) No DRC errors detected.
-\t (00:01:19) DRC done.
-\i (00:01:21) FORM status refresh  
-\i (00:01:22) FORM status done  
-\i (00:01:23) setwindow pcb
-\i (00:01:23) save 
-\i (00:01:24) fillin yes 
-\i (00:01:25) generaledit 
-\i (00:01:27) artwork 
-\i (00:01:29) setwindow form.film_control
-\i (00:01:29) FORM film_control select_all  
-\i (00:01:30) FORM film_control create  
-\t (00:01:30) Checking db records
-\t (00:01:30)     checking for orphans...
-\t (00:01:30)     Checked  21 percent
-\t (00:01:30)     Checked  42 percent
-\t (00:01:30)     Checked  64 percent
-\t (00:01:30)     Checked  85 percent
-\t (00:01:30)     Checked 100 percent
-\t (00:01:30) Done dbdoctor.
-\t (00:01:30) Starting Create artwork films...
-\t (00:01:31) Plot generated.
-\i (00:01:32) FORM film_control ok  
-\i (00:01:32) setwindow pcb
-\i (00:01:32) generaledit 
-\i (00:01:34) save 
-\i (00:01:35) fillin yes 
-\i (00:01:35) generaledit 
-\i (00:01:52) exit 
-\t (00:01:53)     Journal end - Mon Jan 08 21:58:23 2018
+\t (00:17:07) allegro 17.2 P028 Windows SPB 64-bit Edition
+\t (00:17:07)     Journal start - Sat Mar 17 23:07:20 2018
+\t (00:17:07)         Host=ZULOLO-PC User=Zulolo Pid=5840 CPUs=8
+\t (00:17:07) CmdLine= D:\Cadence\SPB_17.2\tools\bin\allegro.exe
+\t (00:17:07) 
+\d (00:17:07) Design opened: G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/ti_foc_motor.brd
+\i (00:17:07) generaledit 
+\i (00:17:11) netin 
+\i (00:17:14) setwindow form.niparams
+\i (00:17:14) FORM niparams browse  
+\i (00:17:17) fillin "G:/Geek/Projects/remote_car/PCB/PCB_DRV8305"
+\i (00:17:21) FORM niparams import  
+\t (00:17:21) Starting Cadence Logic Import...
+\t (00:17:22) Opening existing design...
+\t (00:17:22) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (00:17:22) setwindow pcb
+\i (00:17:22) trapsize 10291
+\i (00:17:23) generaledit 
+\i (00:17:24) prepopup 45.7489 154.4188
+\i (00:17:25) pick grid 35.4582 159.9758
+\t (00:17:25) last pick:  35.5000 160.0000
+\i (00:17:37) refresh symbol 
+\i (00:17:39) setwindow form.upd_element
+\i (00:17:39) FORM upd_element tree 'MULTISEL YES' 'Package symbols' 
+\i (00:17:39) FORM upd_element tree  'Package symbols' 
+\i (00:17:39) FORM upd_element tree 'MULTISEL YES' 'Place replicate modules' 
+\i (00:17:39) FORM upd_element tree  'Place replicate modules' 
+\i (00:17:40) FORM upd_element tree 'MULTISEL YES' Modules 
+\i (00:17:40) FORM upd_element tree  Modules 
+\i (00:17:41) FORM upd_element tree 'MULTISEL YES' 'Mechanical symbols' 
+\i (00:17:41) FORM upd_element tree  'Mechanical symbols' 
+\i (00:17:41) FORM upd_element tree 'MULTISEL YES' 'Shape and flash symbols' 
+\i (00:17:41) FORM upd_element tree  'Shape and flash symbols' 
+\i (00:17:42) FORM upd_element tree 'MULTISEL YES' 'Other symbols' 
+\i (00:17:42) FORM upd_element tree  'Other symbols' 
+\i (00:17:45) FORM upd_element padstacks YES 
+\i (00:17:52) FORM upd_element reset_drill_data YES 
+\i (00:17:53) FORM upd_element reset_symbol_text YES 
+\i (00:17:57) FORM upd_element ignore_fixed YES 
+\i (00:17:59) FORM upd_element refresh  
+\t (00:17:59) Starting Refresh Symbol...
+\t (00:18:00) Opening existing design...
+\t (00:18:01) Grids are drawn 1.6000, 1.6000 apart for enhanced viewability.
+\i (00:18:01) setwindow pcb
+\i (00:18:01) trapsize 10291
+\t (00:18:02) Updating dynamic shape (1 of 5) Gnd, Boundary/Bottom @ (1.0000 0.5001) ...
+\t (00:18:02) Updating dynamic shape (2 of 5) Pvdd, Boundary/Power @ (0.7000 0.7000) ...
+\t (00:18:02) Updating dynamic shape (3 of 5) 3.3V, Boundary/Power @ (25.3999 0.5001) ...
+\t (00:18:02) Updating dynamic shape (4 of 5) Gnd, Boundary/Top @ (1.0000 0.5001) ...
+\t (00:18:02) Updating dynamic shape (5 of 5) Gnd, Boundary/Gnd @ (1.0000 0.5001) ...
+\i (00:18:06) setwindow form.upd_element
+\i (00:18:06) FORM upd_element close  
+\i (00:18:06) setwindow pcb
+\i (00:18:06) generaledit 
+\i (00:18:08) zoom in 1 
+\i (00:18:08) setwindow pcb
+\i (00:18:08) zoom in 9.5256 32.3710
+\t (00:18:08) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:18:08) trapsize 5145
+\i (00:18:08) roam start
+\i (00:18:09) roam y 96
+\i (00:18:09) roam y 64
+\i (00:18:09) roam end
+\i (00:18:19) quickplace 
+\i (00:18:21) setwindow form.quickplc
+\i (00:18:21) FORM quickplc place  
+\i (00:18:22) FORM quickplc place  
+\i (00:18:27) FORM quickplc done  
+\i (00:18:27) setwindow pcb
+\i (00:18:27) generaledit 
+\i (00:18:29) save 
+\i (00:18:30) fillin yes 
+\i (00:18:30) generaledit 
+\i (00:18:46) QtSignal CVPLayerGrid CVPBoxAllBottom clicked true
+\i (00:18:48) QtSignal CVPLayerGrid CVPBoxAllTop clicked true
+\i (00:18:52) delete 
+\i (00:18:56) setwindow form.find
+\i (00:18:56) FORM find cline_segs NO 
+\i (00:18:57) FORM find cline_segs YES 
+\i (00:18:59) FORM find vias YES 
+\i (00:19:09) FORM find shapes YES 
+\i (00:19:11) setwindow pcb
+\i (00:19:11) drag_start grid 58.7152 78.5762
+\i (00:19:13) drag_stop -0.2506 -0.8681
+\i (00:19:13) pick grid 76.6210 22.0802
+\t (00:19:13) last pick:  76.6000 22.1000
+\i (00:19:15) prepopup 70.7553 27.1227
+\i (00:19:15) done 
+\i (00:19:15) generaledit 
+\i (00:19:17) zoom in 1 
+\i (00:19:17) setwindow pcb
+\i (00:19:17) zoom in 20.5367 8.8052
+\t (00:19:17) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:19:17) trapsize 2573
+\i (00:19:18) roam start
+\i (00:19:18) roam x -64
+\i (00:19:18) roam y 64
+\i (00:19:18) roam x -144
+\i (00:19:18) roam y 32
+\i (00:19:18) roam end
+\i (00:19:19) zoom out 1 
+\i (00:19:19) setwindow pcb
+\i (00:19:19) zoom out 33.8631 14.6195
+\t (00:19:19) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:19:19) trapsize 5145
+\i (00:19:25) setwindow form.mini
+\i (00:19:25) FORM mini class BOARD GEOMETRY 
+\i (00:19:29) FORM mini subclass SOLDERMASK_TOP 
+\i (00:19:30) FORM mini subcolor 1 
+\i (00:19:34) FORM mini subclass SOLDERMASK_BOTTOM 
+\i (00:19:34) FORM mini subcolor 1 
+\i (00:19:37) setwindow pcb
+\i (00:19:37) prepopup 97.7171 46.4693
+\i (00:19:37) pick grid 83.4130 45.1315
+\t (00:19:37) last pick:  83.4000 45.1000
+\i (00:19:38) zoom in 1 
+\i (00:19:38) setwindow pcb
+\i (00:19:38) zoom in 45.7490 45.5431
+\t (00:19:38) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:19:38) trapsize 2573
+\i (00:19:39) zoom out 1 
+\i (00:19:39) setwindow pcb
+\i (00:19:39) zoom out 45.7490 45.5432
+\t (00:19:39) Grids are drawn 0.8000, 0.8000 apart for enhanced viewability.
+\i (00:19:39) trapsize 5145
+\i (00:19:41) delete 
+\i (00:19:43) pick grid 8.9082 39.0600
+\t (00:19:43) last pick:  8.9000 39.1000
+\t (00:19:43) Shape "Board Geometry/Soldermask_Top"
+\i (00:19:43) pick grid 88.9700 45.5431
+\t (00:19:43) last pick:  89.0000 45.5000
+\i (00:19:45) drag_start grid 55.9368 77.2386
+\i (00:19:46) drag_stop -1.3826 -1.4855
+\i (00:19:47) pick grid 81.3549 31.1361
+\t (00:19:47) last pick:  81.4000 31.1000
+\i (00:19:47) prepopup 62.7286 42.9705
+\i (00:19:48) done 
+\i (00:19:48) generaledit 
+\i (00:19:57) zoom in 1 
+\i (00:19:57) setwindow pcb
+\i (00:19:57) zoom in 30.6216 24.5501
+\t (00:19:57) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:19:57) trapsize 2573
+\i (00:19:57) zoom in 1 
+\i (00:19:57) setwindow pcb
+\i (00:19:57) zoom in 30.5187 24.5501
+\t (00:19:57) Grids are drawn 0.2000, 0.2000 apart for enhanced viewability.
+\i (00:19:57) trapsize 1286
+\i (00:19:58) roam start
+\i (00:19:58) roam x -160
+\i (00:19:58) roam y -128
+\i (00:19:58) roam x -208
+\i (00:19:58) roam y -128
+\i (00:19:58) roam x -64
+\i (00:19:58) roam y -48
+\i (00:19:58) roam x -48
+\i (00:19:58) roam y -32
+\i (00:19:58) roam y -16
+\i (00:19:58) roam x -48
+\i (00:19:58) roam y -32
+\i (00:19:58) roam end
+\i (00:19:59) zoom out 1 
+\i (00:19:59) setwindow pcb
+\i (00:19:59) zoom out 32.2938 39.4973
+\t (00:19:59) Grids are drawn 0.4000, 0.4000 apart for enhanced viewability.
+\i (00:19:59) trapsize 2573
+\i (00:20:00) roam start
+\i (00:20:00) roam y 96
+\i (00:20:00) roam y 128
+\i (00:20:00) roam y 16
+\i (00:20:00) roam y 80
+\i (00:20:00) roam end
+\i (00:20:02) prepopup 36.4873 20.1251
+\i (00:20:03) pick grid 54.4446 26.1452
+\t (00:20:03) last pick:  54.4000 26.1000
+\i (00:20:13) setwindow form.mini
+\i (00:20:13) FORM mini class MANUFACTURING 
+\i (00:20:17) FORM mini subclass AUTOSILK_BOTTOM 
+\i (00:20:18) FORM mini subcolor 1 
+\i (00:20:19) FORM mini subcolor 0 
+\i (00:20:20) FORM mini subcolor 1 
+\i (00:20:32) setwindow pcb
+\i (00:20:32) save 
+\i (00:20:34) fillin yes 
+\i (00:20:34) generaledit 
+\i (00:20:35) exit 
+\t (00:20:35)     Journal end - Sat Mar 17 23:10:49 2018
