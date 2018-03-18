@@ -1,4 +1,4 @@
-{ Using PSTWRITER 17.2.0 d001Mar-17-2018 at 23:06:48 }
+{ Using PSTWRITER 17.2.0 d001Mar-18-2018 at 11:17:37 }
 
 #1 WARNING(ORCAP-36038): "No_connect" property on Pin "MCU1.36" ignored for MCU1: SCHEMATIC1, controller (2.80, 2.40). Connecting pin to net "MCU_IIC_SCK".
 #2 WARNING(ORCAP-36038): "No_connect" property on Pin "MCU1.31" ignored for MCU1: SCHEMATIC1, controller (2.80, 2.40). Connecting pin to net "MCU_IIC_SDA".

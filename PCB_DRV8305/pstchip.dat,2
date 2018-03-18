@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 16.6.0 d001Jan-06-2018 at 17:07:30}
+{ Using PSTWRITER 17.2.0 d001Mar-18-2018 at 09:52:40}
 primitive 'CAP NP_SMD_C_0805_2.2NF';
   pin
     '1':
@@ -150,7 +150,7 @@ primitive 'DIODE TVS_SOD323_3.3V';
     VALUE='3.3V';
   end_body;
 end_primitive;
-primitive 'C1X6GEN_CONNECTER1X6_JTAG';
+primitive 'C2X4_C2X4_SMD_1P27_JTAG';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -170,14 +170,20 @@ primitive 'C1X6GEN_CONNECTER1X6_JTAG';
     '6':
       PIN_NUMBER='(6)';
       PINUSE='UNSPEC';
+    '7':
+      PIN_NUMBER='(7)';
+      PINUSE='UNSPEC';
+    '8':
+      PIN_NUMBER='(8)';
+      PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='C1X6Gen';
-    JEDEC_TYPE='Connecter1X6';
+    PART_NAME='C2X4';
+    JEDEC_TYPE='C2X4_smd_1p27';
     VALUE='JTAG';
   end_body;
 end_primitive;
-primitive 'BANANA_BANANA_MOTOR_A';
+primitive 'BANANA_BANANA_SMALL_MOTOR_A';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -185,7 +191,7 @@ primitive 'BANANA_BANANA_MOTOR_A';
   end_pin;
   body
     PART_NAME='Banana';
-    JEDEC_TYPE='Banana';
+    JEDEC_TYPE='Banana_small';
     VALUE='motor_A';
   end_body;
 end_primitive;
@@ -210,7 +216,7 @@ primitive 'C1X4GEN_CONN1X4_CONN1X4';
     VALUE='Conn1X4';
   end_body;
 end_primitive;
-primitive 'BANANA_BANANA_MOTOR_B';
+primitive 'BANANA_BANANA_SMALL_MOTOR_B';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -218,11 +224,11 @@ primitive 'BANANA_BANANA_MOTOR_B';
   end_pin;
   body
     PART_NAME='Banana';
-    JEDEC_TYPE='Banana';
+    JEDEC_TYPE='Banana_small';
     VALUE='motor_B';
   end_body;
 end_primitive;
-primitive 'BANANA_BANANA_MOTOR_C';
+primitive 'BANANA_BANANA_SMALL_MOTOR_C';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -230,11 +236,11 @@ primitive 'BANANA_BANANA_MOTOR_C';
   end_pin;
   body
     PART_NAME='Banana';
-    JEDEC_TYPE='Banana';
+    JEDEC_TYPE='Banana_small';
     VALUE='motor_C';
   end_body;
 end_primitive;
-primitive 'BANANA_BANANA_POWER_P';
+primitive 'BANANA_BANANA_SMALL_POWER_P';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -242,11 +248,11 @@ primitive 'BANANA_BANANA_POWER_P';
   end_pin;
   body
     PART_NAME='Banana';
-    JEDEC_TYPE='Banana';
+    JEDEC_TYPE='Banana_small';
     VALUE='power_P';
   end_body;
 end_primitive;
-primitive 'BANANA_BANANA_POWER_GND';
+primitive 'BANANA_BANANA_SMALL_POWER_GND';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -254,7 +260,7 @@ primitive 'BANANA_BANANA_POWER_GND';
   end_pin;
   body
     PART_NAME='Banana';
-    JEDEC_TYPE='Banana';
+    JEDEC_TYPE='Banana_small';
     VALUE='power_GND';
   end_body;
 end_primitive;
@@ -444,7 +450,7 @@ primitive 'N_MOSFET_TO252-263_TO252AA_ZK_I';
     VALUE='IRLR7843-TO252AA';
   end_body;
 end_primitive;
-primitive 'RESISTOR_SMD_R_0805_820R';
+primitive 'RESISTOR_SMD_R_0805_2.2K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -456,22 +462,7 @@ primitive 'RESISTOR_SMD_R_0805_820R';
   body
     PART_NAME='RESISTOR';
     JEDEC_TYPE='SMD_R_0805';
-    VALUE='820R';
-  end_body;
-end_primitive;
-primitive 'RESISTOR_SMD_R_0805_330R';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RESISTOR';
-    JEDEC_TYPE='SMD_R_0805';
-    VALUE='330R';
+    VALUE='2.2K';
   end_body;
 end_primitive;
 primitive 'RESISTOR_SMD_R_0805_62K';
@@ -534,7 +525,7 @@ primitive 'RESISTOR_SMD_R_0805_56R';
     VALUE='56R';
   end_body;
 end_primitive;
-primitive 'RESISTOR_SMD_R_0805_2.2K';
+primitive 'RESISTOR_SMD_R_0805_1K';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -546,7 +537,7 @@ primitive 'RESISTOR_SMD_R_0805_2.2K';
   body
     PART_NAME='RESISTOR';
     JEDEC_TYPE='SMD_R_0805';
-    VALUE='2.2K';
+    VALUE='1K';
   end_body;
 end_primitive;
 primitive 'RESISTOR_SMD_R_0805_100R';
@@ -594,28 +585,19 @@ primitive 'RESISTOR_SMD_R_0805_10K';
     VALUE='10K';
   end_body;
 end_primitive;
-primitive 'TESTPAD_SMALL_SMD_TESTPAD_SMD_D';
+primitive 'RESISTOR_SMD_R_0805_330R';
   pin
     '1':
       PIN_NUMBER='(1)';
       PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='TestPad_Small_SMD';
-    JEDEC_TYPE='TestPad_SMD_D10';
-    VALUE='X2';
-  end_body;
-end_primitive;
-primitive 'TESTPAD_SMALL_SMD_TESTPAD_SMD_1';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
+    '2':
+      PIN_NUMBER='(2)';
       PINUSE='UNSPEC';
   end_pin;
   body
-    PART_NAME='TestPad_Small_SMD';
-    JEDEC_TYPE='TestPad_SMD_D10';
-    VALUE='X1';
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='SMD_R_0805';
+    VALUE='330R';
   end_body;
 end_primitive;
 primitive 'TESTPAD_TESTPAD_CIR_10_CAP_P';

@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : ti_foc_motor.brd                              )
 (    Software Version : 17.2P019                                      )
-(    Date/Time        : Sat Mar 17 23:07:35 2018                      )
+(    Date/Time        : Sun Mar 18 11:17:50 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -22,12 +22,12 @@ Design Directory:            '.'
 Old design name:             'G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/ti_foc_motor.brd'
 New design name:             'G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/ti_foc_motor.brd'
 
-CmdLine: netrev -$ -i G:/Geek/Projects/remote_car/PCB/PCB_DRV8305 -y 1 -q netrev_constraint_report.xml G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/#Taaaaah05840.tmp
+CmdLine: netrev -$ -i G:/Geek/Projects/remote_car/PCB/PCB_DRV8305 -y 1 -q netrev_constraint_report.xml G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/#Taaaaaq11764.tmp
 
 ------ Preparing to read pst files ------
 
 Starting to read G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/pstchip.dat 
-   Finished reading G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/pstchip.dat (00:00:00.04)
+   Finished reading G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/pstchip.dat (00:00:00.02)
 Starting to read G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/pstxprt.dat 
    Finished reading G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/pstxprt.dat (00:00:00.00)
 Starting to read G:/Geek/Projects/remote_car/PCB/PCB_DRV8305/pstxnet.dat 
@@ -67,7 +67,7 @@ PADPATH =  .
 ------ Summary Statistics ------
 
 
-netrev run on Mar 17 23:07:35 2018
+netrev run on Mar 18 11:17:50 2018
    DESIGN NAME : 'MOTOR_TI_FOC'
    PACKAGING ON Mar  2 2016 00:37:24
 
@@ -92,6 +92,6 @@ netrev run on Mar 17 23:07:35 2018
  No oversight detected
  No warning detected
 
-cpu time      0:01:23
-elapsed time  0:00:01
+cpu time      0:00:30
+elapsed time  0:00:00
 

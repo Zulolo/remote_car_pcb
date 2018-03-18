@@ -3,9 +3,31 @@
 (    QUICKPLACE LOG                                                   )
 (                                                                     )
 (    Drawing          : ti_foc_motor.brd                              )
-(    Software Version : 16.6S008                                      )
-(    Date/Time        : Wed Jan 03 21:23:40 2018                      )
+(    Software Version : 17.2P028                                      )
+(    Date/Time        : Sat Mar 17 23:08:33 2018                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
+
+State: Placing on layer TOP
+
+         Placed symbol:  R2 / RESISTOR_SMD_R_0805_1K / SMD_R_0805 at (1.7796 77.6148)
+         Placed symbol:  C18 / CAP NP_SMD_C_0805_0.1UF / SMD_C_0805 at (4.4092 77.6148)
+         Placed symbol:  C22 / CAP NP_SMD_C_0805_1NF / SMD_C_0805 at (7.0388 77.6148)
+         Placed symbol:  C25 / CAP NP_SMD_C_0805_10UF / SMD_C_0805 at (9.6684 77.6148)
+         Placed symbol:  R20 / RESISTOR_SMD_R_0805_5K / SMD_R_0805 at (12.2980 77.6148)
+         Placed symbol:  R15 / RESISTOR_SMD_R_0805_56R / SMD_R_0805 at (14.9276 77.6148)
+
+
+Placed 6 of 6 applicable (6 total) symbols.
+
+-----------------------------------------------------------------------
+
+State: Placing on layer TOP
+
+
+
+Placed 0 of 0 applicable (0 total) symbols.
+
+-----------------------------------------------------------------------
 
