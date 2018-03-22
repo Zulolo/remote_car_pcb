@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Mar-18-2018 at 11:09:57}
+{ Using PSTWRITER 17.2.0 d001Mar-18-2018 at 11:17:38}
 primitive 'CAP NP_SMD_C_0805_2.2NF';
   pin
     '1':
@@ -540,36 +540,6 @@ primitive 'RESISTOR_SMD_R_0805_1K';
     VALUE='1K';
   end_body;
 end_primitive;
-primitive 'RESISTOR_SMD_R_0805_100R';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RESISTOR';
-    JEDEC_TYPE='SMD_R_0805';
-    VALUE='100R';
-  end_body;
-end_primitive;
-primitive 'RESISTOR_SMD_R_0805_0R';
-  pin
-    '1':
-      PIN_NUMBER='(1)';
-      PINUSE='UNSPEC';
-    '2':
-      PIN_NUMBER='(2)';
-      PINUSE='UNSPEC';
-  end_pin;
-  body
-    PART_NAME='RESISTOR';
-    JEDEC_TYPE='SMD_R_0805';
-    VALUE='0R';
-  end_body;
-end_primitive;
 primitive 'RESISTOR_SMD_R_0805_10K';
   pin
     '1':
@@ -583,6 +553,21 @@ primitive 'RESISTOR_SMD_R_0805_10K';
     PART_NAME='RESISTOR';
     JEDEC_TYPE='SMD_R_0805';
     VALUE='10K';
+  end_body;
+end_primitive;
+primitive 'RESISTOR_SMD_R_0805_100R';
+  pin
+    '1':
+      PIN_NUMBER='(1)';
+      PINUSE='UNSPEC';
+    '2':
+      PIN_NUMBER='(2)';
+      PINUSE='UNSPEC';
+  end_pin;
+  body
+    PART_NAME='RESISTOR';
+    JEDEC_TYPE='SMD_R_0805';
+    VALUE='100R';
   end_body;
 end_primitive;
 primitive 'RESISTOR_SMD_R_0805_330R';

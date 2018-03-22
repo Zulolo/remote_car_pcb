@@ -1,5 +1,5 @@
 FILE_TYPE=LIBRARY_PARTS;
-{ Using PSTWRITER 17.2.0 d001Mar-18-2018 at 09:52:40}
+{ Using PSTWRITER 17.2.0 d001Mar-18-2018 at 11:09:57}
 primitive 'CAP NP_SMD_C_0805_2.2NF';
   pin
     '1':
@@ -90,7 +90,7 @@ primitive 'CAP NP_SMD_C_0805_1NF';
     VALUE='1nF';
   end_body;
 end_primitive;
-primitive 'CAP NP_SMD_C_0805_10UF';
+primitive 'CAP NP_SMD_C_1206_47UF';
   pin
     '1':
       PIN_NUMBER='(1)';
@@ -101,8 +101,8 @@ primitive 'CAP NP_SMD_C_0805_10UF';
   end_pin;
   body
     PART_NAME='CAP NP';
-    JEDEC_TYPE='SMD_C_0805';
-    VALUE='10uF';
+    JEDEC_TYPE='SMD_C_1206';
+    VALUE='47uF';
   end_body;
 end_primitive;
 primitive 'CAP NP_SMD_C_1206_4.7UF';

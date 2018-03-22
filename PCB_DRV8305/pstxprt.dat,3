@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 17.2.0 d001Mar-18-2018 at 11:09:57 }
+{ Using PSTWRITER 17.2.0 d001Mar-18-2018 at 11:17:38 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='MOTOR_TI_FOC';
@@ -501,9 +501,9 @@ PART_NAME
  R1 'RESISTOR_SMD_R_0805_2.2K':;
 
 SECTION_NUMBER 1
- '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3762176@DISCRETE.RESISTOR.NORMAL(CHIPS)':
- C_PATH='@motor_ti_foc.schematic1(sch_1):ins3762176@discrete.\resistor.normal\(chips)',
- P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3762176@discrete.\resistor.normal\(chips)',
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3830798@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3830798@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3830798@discrete.\resistor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
@@ -648,6 +648,16 @@ SECTION_NUMBER 1
  SECTION='';
 
 PART_NAME
+ R23 'RESISTOR_SMD_R_0805_10K':;
+
+SECTION_NUMBER 1
+ '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3830853@DISCRETE.RESISTOR.NORMAL(CHIPS)':
+ C_PATH='@motor_ti_foc.schematic1(sch_1):ins3830853@discrete.\resistor.normal\(chips)',
+ P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3830853@discrete.\resistor.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ SECTION='';
+
+PART_NAME
  R3 'RESISTOR_SMD_R_0805_2.2K':;
 
 SECTION_NUMBER 1
@@ -674,16 +684,6 @@ SECTION_NUMBER 1
  '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS4822@DISCRETE.RESISTOR.NORMAL(CHIPS)':
  C_PATH='@motor_ti_foc.schematic1(sch_1):ins4822@discrete.\resistor.normal\(chips)',
  P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins4822@discrete.\resistor.normal\(chips)',
- PRIM_FILE='.\pstchip.dat',
- SECTION='';
-
-PART_NAME
- R6 'RESISTOR_SMD_R_0805_0R':;
-
-SECTION_NUMBER 1
- '@MOTOR_TI_FOC.SCHEMATIC1(SCH_1):INS3773367@DISCRETE.RESISTOR.NORMAL(CHIPS)':
- C_PATH='@motor_ti_foc.schematic1(sch_1):ins3773367@discrete.\resistor.normal\(chips)',
- P_PATH='@motor_ti_foc.schematic1(sch_1):page0_ins3773367@discrete.\resistor.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  SECTION='';
 
